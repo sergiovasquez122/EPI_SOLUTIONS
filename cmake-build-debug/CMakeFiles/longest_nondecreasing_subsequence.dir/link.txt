@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/longest_nondecreasing_subsequence.dir/longest_nondecreasing_subsequence.cc.o  -o longest_nondecreasing_subsequence -lpthread 

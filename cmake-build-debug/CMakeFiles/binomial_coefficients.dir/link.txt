@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/binomial_coefficients.dir/binomial_coefficients.cc.o  -o binomial_coefficients -lpthread 

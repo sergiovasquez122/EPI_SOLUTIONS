@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/random_subset.dir/random_subset.cc.o  -o random_subset -lpthread 

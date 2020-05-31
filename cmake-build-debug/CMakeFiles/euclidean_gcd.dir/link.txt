@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/euclidean_gcd.dir/euclidean_gcd.cc.o  -o euclidean_gcd -lpthread 

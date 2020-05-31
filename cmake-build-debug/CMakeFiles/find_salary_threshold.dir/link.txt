@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/find_salary_threshold.dir/find_salary_threshold.cc.o  -o find_salary_threshold -lpthread 

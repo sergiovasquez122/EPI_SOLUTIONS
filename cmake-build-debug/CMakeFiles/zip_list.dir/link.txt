@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/zip_list.dir/zip_list.cc.o  -o zip_list -lpthread 

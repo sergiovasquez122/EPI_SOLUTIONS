@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/rotate_array.dir/rotate_array.cc.o  -o rotate_array -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/n_queens.dir/n_queens.cc.o  -o n_queens -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/search_shifted_sorted_array.dir/search_shifted_sorted_array.cc.o  -o search_shifted_sorted_array -lpthread 

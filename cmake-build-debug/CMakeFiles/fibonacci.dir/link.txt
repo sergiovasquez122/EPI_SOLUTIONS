@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/fibonacci.dir/fibonacci.cc.o  -o fibonacci -lpthread 

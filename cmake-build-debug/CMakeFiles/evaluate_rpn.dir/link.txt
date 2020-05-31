@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/evaluate_rpn.dir/evaluate_rpn.cc.o  -o evaluate_rpn -lpthread 

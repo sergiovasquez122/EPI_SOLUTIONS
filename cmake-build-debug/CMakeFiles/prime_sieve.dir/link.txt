@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/prime_sieve.dir/prime_sieve.cc.o  -o prime_sieve -lpthread 

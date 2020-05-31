@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/dutch_national_flag.dir/dutch_national_flag.cc.o  -o dutch_national_flag -lpthread 

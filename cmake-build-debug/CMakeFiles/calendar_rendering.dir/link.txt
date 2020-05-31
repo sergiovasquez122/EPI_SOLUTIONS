@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/calendar_rendering.dir/calendar_rendering.cc.o  -o calendar_rendering -lpthread 

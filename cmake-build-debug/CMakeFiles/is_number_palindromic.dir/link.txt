@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_number_palindromic.dir/is_number_palindromic.cc.o  -o is_number_palindromic -lpthread 

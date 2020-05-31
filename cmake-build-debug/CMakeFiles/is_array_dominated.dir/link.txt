@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_array_dominated.dir/is_array_dominated.cc.o  -o is_array_dominated -lpthread 

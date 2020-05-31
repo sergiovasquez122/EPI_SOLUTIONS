@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/int_as_array_increment.dir/int_as_array_increment.cc.o  -o int_as_array_increment -lpthread 

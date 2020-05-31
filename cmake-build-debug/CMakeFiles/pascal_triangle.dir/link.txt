@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/pascal_triangle.dir/pascal_triangle.cc.o  -o pascal_triangle -lpthread 

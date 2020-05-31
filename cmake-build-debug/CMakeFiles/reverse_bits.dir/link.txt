@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/reverse_bits.dir/reverse_bits.cc.o  -o reverse_bits -lpthread 

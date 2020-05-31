@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/convert_base.dir/convert_base.cc.o  -o convert_base -lpthread 

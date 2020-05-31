@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/smallest_nonconstructible_value.dir/smallest_nonconstructible_value.cc.o  -o smallest_nonconstructible_value -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/intervals_union.dir/intervals_union.cc.o  -o intervals_union -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/max_safe_height.dir/max_safe_height.cc.o  -o max_safe_height -lpthread 

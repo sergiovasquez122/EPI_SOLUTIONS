@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/string_transformability.dir/string_transformability.cc.o  -o string_transformability -lpthread 

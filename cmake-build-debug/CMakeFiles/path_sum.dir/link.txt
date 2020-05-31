@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/path_sum.dir/path_sum.cc.o  -o path_sum -lpthread 

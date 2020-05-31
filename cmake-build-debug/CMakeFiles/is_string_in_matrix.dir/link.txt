@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_string_in_matrix.dir/is_string_in_matrix.cc.o  -o is_string_in_matrix -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/random_permutation.dir/random_permutation.cc.o  -o random_permutation -lpthread 

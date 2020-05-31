@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/left_right_justify_text.dir/left_right_justify_text.cc.o  -o left_right_justify_text -lpthread 

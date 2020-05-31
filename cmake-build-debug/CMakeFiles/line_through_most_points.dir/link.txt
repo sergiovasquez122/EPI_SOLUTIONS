@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/line_through_most_points.dir/line_through_most_points.cc.o  -o line_through_most_points -lpthread 

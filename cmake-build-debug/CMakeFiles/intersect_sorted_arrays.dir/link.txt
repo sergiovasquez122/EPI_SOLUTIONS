@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cc.o  -o intersect_sorted_arrays -lpthread 

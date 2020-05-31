@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/tree_postorder.dir/tree_postorder.cc.o  -o tree_postorder -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/online_sampling.dir/online_sampling.cc.o  -o online_sampling -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/max_water_trappable.dir/max_water_trappable.cc.o  -o max_water_trappable -lpthread 

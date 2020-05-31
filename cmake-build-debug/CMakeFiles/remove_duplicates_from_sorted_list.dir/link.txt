@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/remove_duplicates_from_sorted_list.dir/remove_duplicates_from_sorted_list.cc.o  -o remove_duplicates_from_sorted_list -lpthread 

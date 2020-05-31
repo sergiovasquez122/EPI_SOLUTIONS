@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/sorted_lists_merge.dir/sorted_lists_merge.cc.o  -o sorted_lists_merge -lpthread 

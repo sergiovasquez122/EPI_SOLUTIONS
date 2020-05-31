@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/picking_up_coins.dir/picking_up_coins.cc.o  -o picking_up_coins -lpthread 

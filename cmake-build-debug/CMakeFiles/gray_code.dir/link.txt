@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/gray_code.dir/gray_code.cc.o  -o gray_code -lpthread 

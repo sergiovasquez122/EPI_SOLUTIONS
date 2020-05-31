@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/directory_path_normalization.dir/directory_path_normalization.cc.o  -o directory_path_normalization -lpthread 

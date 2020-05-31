@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_tree_balanced.dir/is_tree_balanced.cc.o  -o is_tree_balanced -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/string_integer_interconversion.dir/string_integer_interconversion.cc.o  -o string_integer_interconversion -lpthread 

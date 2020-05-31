@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/minimum_distance_3_sorted_arrays.dir/minimum_distance_3_sorted_arrays.cc.o  -o minimum_distance_3_sorted_arrays -lpthread 

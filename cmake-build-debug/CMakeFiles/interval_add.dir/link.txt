@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/interval_add.dir/interval_add.cc.o  -o interval_add -lpthread 

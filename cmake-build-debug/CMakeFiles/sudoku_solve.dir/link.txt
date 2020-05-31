@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/sudoku_solve.dir/sudoku_solve.cc.o  -o sudoku_solve -lpthread 

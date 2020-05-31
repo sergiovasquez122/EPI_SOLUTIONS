@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cc.o  -o spreadsheet_encoding -lpthread 

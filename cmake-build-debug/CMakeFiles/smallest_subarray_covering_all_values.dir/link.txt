@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/smallest_subarray_covering_all_values.dir/smallest_subarray_covering_all_values.cc.o  -o smallest_subarray_covering_all_values -lpthread 

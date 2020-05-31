@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/count_inversions.dir/count_inversions.cc.o  -o count_inversions -lpthread 

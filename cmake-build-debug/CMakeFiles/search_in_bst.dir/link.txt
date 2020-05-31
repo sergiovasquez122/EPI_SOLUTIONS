@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/search_in_bst.dir/search_in_bst.cc.o  -o search_in_bst -lpthread 

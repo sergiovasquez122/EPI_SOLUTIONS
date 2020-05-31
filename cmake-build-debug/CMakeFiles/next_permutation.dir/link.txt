@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/next_permutation.dir/next_permutation.cc.o  -o next_permutation -lpthread 

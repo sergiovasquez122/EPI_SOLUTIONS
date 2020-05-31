@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/enumerate_balanced_parentheses.dir/enumerate_balanced_parentheses.cc.o  -o enumerate_balanced_parentheses -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/max_sum_subarray.dir/max_sum_subarray.cc.o  -o max_sum_subarray -lpthread 

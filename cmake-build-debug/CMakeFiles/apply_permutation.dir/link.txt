@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/apply_permutation.dir/apply_permutation.cc.o  -o apply_permutation -lpthread 

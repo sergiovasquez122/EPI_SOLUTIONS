@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/alternating_array.dir/alternating_array.cc.o  -o alternating_array -lpthread 

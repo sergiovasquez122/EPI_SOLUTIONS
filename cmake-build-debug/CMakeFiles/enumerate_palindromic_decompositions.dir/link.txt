@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/enumerate_palindromic_decompositions.dir/enumerate_palindromic_decompositions.cc.o  -o enumerate_palindromic_decompositions -lpthread 

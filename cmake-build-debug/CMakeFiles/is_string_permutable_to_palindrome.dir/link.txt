@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_string_permutable_to_palindrome.dir/is_string_permutable_to_palindrome.cc.o  -o is_string_permutable_to_palindrome -lpthread 

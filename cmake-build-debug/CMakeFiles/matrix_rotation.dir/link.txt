@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/matrix_rotation.dir/matrix_rotation.cc.o  -o matrix_rotation -lpthread 

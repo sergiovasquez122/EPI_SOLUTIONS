@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/search_row_col_sorted_matrix.dir/search_row_col_sorted_matrix.cc.o  -o search_row_col_sorted_matrix -lpthread 

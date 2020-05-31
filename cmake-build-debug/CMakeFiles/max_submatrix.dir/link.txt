@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/max_submatrix.dir/max_submatrix.cc.o  -o max_submatrix -lpthread 

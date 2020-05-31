@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/closest_int_same_weight.dir/closest_int_same_weight.cc.o  -o closest_int_same_weight -lpthread 

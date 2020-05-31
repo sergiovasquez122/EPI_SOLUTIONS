@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/longest_contained_interval.dir/longest_contained_interval.cc.o  -o longest_contained_interval -lpthread 

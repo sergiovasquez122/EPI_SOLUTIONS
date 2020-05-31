@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/number_of_score_combinations.dir/number_of_score_combinations.cc.o  -o number_of_score_combinations -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/kth_node_in_tree.dir/kth_node_in_tree.cc.o  -o kth_node_in_tree -lpthread 

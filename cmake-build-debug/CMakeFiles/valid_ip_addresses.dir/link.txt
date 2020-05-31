@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/valid_ip_addresses.dir/valid_ip_addresses.cc.o  -o valid_ip_addresses -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/descendant_and_ancestor_in_bst.dir/descendant_and_ancestor_in_bst.cc.o  -o descendant_and_ancestor_in_bst -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/buy_and_sell_stock.dir/buy_and_sell_stock.cc.o  -o buy_and_sell_stock -lpthread 

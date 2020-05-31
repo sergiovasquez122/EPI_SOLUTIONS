@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/tree_with_parent_inorder.dir/tree_with_parent_inorder.cc.o  -o tree_with_parent_inorder -lpthread 

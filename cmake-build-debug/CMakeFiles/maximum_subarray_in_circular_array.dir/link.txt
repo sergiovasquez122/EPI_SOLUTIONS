@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/maximum_subarray_in_circular_array.dir/maximum_subarray_in_circular_array.cc.o  -o maximum_subarray_in_circular_array -lpthread 

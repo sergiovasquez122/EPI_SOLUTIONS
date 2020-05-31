@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/sum_root_to_leaf.dir/sum_root_to_leaf.cc.o  -o sum_root_to_leaf -lpthread 

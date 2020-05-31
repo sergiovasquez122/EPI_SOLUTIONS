@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/run_length_compression.dir/run_length_compression.cc.o  -o run_length_compression -lpthread 

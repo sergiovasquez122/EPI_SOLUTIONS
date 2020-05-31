@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/search_unknown_length_array.dir/search_unknown_length_array.cc.o  -o search_unknown_length_array -lpthread 

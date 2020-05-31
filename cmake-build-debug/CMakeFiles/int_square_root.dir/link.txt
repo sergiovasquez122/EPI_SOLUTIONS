@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/int_square_root.dir/int_square_root.cc.o  -o int_square_root -lpthread 

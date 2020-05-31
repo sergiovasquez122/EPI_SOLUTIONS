@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_string_decomposable_into_words.dir/is_string_decomposable_into_words.cc.o  -o is_string_decomposable_into_words -lpthread 

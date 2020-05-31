@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/group_equal_entries.dir/group_equal_entries.cc.o  -o group_equal_entries -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/primitive_multiply.dir/primitive_multiply.cc.o  -o primitive_multiply -lpthread 

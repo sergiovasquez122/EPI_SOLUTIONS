@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/sort_almost_sorted_array.dir/sort_almost_sorted_array.cc.o  -o sort_almost_sorted_array -lpthread 

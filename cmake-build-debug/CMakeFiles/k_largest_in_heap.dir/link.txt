@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/k_largest_in_heap.dir/k_largest_in_heap.cc.o  -o k_largest_in_heap -lpthread 

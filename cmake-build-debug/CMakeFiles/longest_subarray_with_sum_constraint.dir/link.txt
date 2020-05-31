@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/longest_subarray_with_sum_constraint.dir/longest_subarray_with_sum_constraint.cc.o  -o longest_subarray_with_sum_constraint -lpthread 

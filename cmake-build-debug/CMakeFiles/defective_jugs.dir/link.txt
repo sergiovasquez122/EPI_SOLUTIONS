@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/defective_jugs.dir/defective_jugs.cc.o  -o defective_jugs -lpthread 

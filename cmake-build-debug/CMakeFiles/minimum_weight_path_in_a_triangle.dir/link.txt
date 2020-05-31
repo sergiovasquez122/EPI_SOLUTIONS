@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/minimum_weight_path_in_a_triangle.dir/minimum_weight_path_in_a_triangle.cc.o  -o minimum_weight_path_in_a_triangle -lpthread 

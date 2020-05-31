@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/max_of_sliding_window.dir/max_of_sliding_window.cc.o  -o max_of_sliding_window -lpthread 

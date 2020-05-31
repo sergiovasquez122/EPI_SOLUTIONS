@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/tree_from_preorder_with_null.dir/tree_from_preorder_with_null.cc.o  -o tree_from_preorder_with_null -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/list_cyclic_right_shift.dir/list_cyclic_right_shift.cc.o  -o list_cyclic_right_shift -lpthread 

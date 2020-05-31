@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/making_change.dir/making_change.cc.o  -o making_change -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_anonymous_letter_constructible.dir/is_anonymous_letter_constructible.cc.o  -o is_anonymous_letter_constructible -lpthread 

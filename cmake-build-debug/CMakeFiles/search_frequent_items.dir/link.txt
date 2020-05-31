@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/search_frequent_items.dir/search_frequent_items.cc.o  -o search_frequent_items -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/regular_expression.dir/regular_expression.cc.o  -o regular_expression -lpthread 

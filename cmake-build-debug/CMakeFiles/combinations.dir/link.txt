@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/combinations.dir/combinations.cc.o  -o combinations -lpthread 

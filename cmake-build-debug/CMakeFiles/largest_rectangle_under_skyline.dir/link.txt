@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/largest_rectangle_under_skyline.dir/largest_rectangle_under_skyline.cc.o  -o largest_rectangle_under_skyline -lpthread 

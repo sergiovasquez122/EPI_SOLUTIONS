@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/a_b_sqrt2.dir/a_b_sqrt2.cc.o  -o a_b_sqrt2 -lpthread 

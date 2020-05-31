@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/nonuniform_random_number.dir/nonuniform_random_number.cc.o  -o nonuniform_random_number -lpthread 

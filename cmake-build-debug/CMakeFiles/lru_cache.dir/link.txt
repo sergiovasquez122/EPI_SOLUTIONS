@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/lru_cache.dir/lru_cache.cc.o  -o lru_cache -lpthread 

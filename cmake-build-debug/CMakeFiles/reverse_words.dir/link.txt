@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/reverse_words.dir/reverse_words.cc.o  -o reverse_words -lpthread 

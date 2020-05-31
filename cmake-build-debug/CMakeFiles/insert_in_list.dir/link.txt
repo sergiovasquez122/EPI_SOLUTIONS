@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/insert_in_list.dir/insert_in_list.cc.o  -o insert_in_list -lpthread 

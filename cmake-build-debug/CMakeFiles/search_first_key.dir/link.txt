@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/search_first_key.dir/search_first_key.cc.o  -o search_first_key -lpthread 

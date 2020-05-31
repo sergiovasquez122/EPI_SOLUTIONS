@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/two_sorted_arrays_merge.dir/two_sorted_arrays_merge.cc.o  -o two_sorted_arrays_merge -lpthread 

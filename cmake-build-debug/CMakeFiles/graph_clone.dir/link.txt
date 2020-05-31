@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/graph_clone.dir/graph_clone.cc.o  -o graph_clone -lpthread 

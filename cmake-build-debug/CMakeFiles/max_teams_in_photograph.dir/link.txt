@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/max_teams_in_photograph.dir/max_teams_in_photograph.cc.o  -o max_teams_in_photograph -lpthread 

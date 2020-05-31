@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/longest_substring_with_matching_parentheses.dir/longest_substring_with_matching_parentheses.cc.o  -o longest_substring_with_matching_parentheses -lpthread 

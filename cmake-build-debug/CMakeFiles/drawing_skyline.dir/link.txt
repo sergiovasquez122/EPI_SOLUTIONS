@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/drawing_skyline.dir/drawing_skyline.cc.o  -o drawing_skyline -lpthread 

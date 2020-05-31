@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_valid_sudoku.dir/is_valid_sudoku.cc.o  -o is_valid_sudoku -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/swap_bits.dir/swap_bits.cc.o  -o swap_bits -lpthread 

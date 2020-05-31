@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/sort_list.dir/sort_list.cc.o  -o sort_list -lpthread 

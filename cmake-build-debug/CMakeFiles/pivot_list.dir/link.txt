@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/pivot_list.dir/pivot_list.cc.o  -o pivot_list -lpthread 

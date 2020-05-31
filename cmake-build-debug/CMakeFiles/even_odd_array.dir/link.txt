@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/even_odd_array.dir/even_odd_array.cc.o  -o even_odd_array -lpthread 

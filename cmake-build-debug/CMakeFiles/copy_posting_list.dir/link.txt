@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/copy_posting_list.dir/copy_posting_list.cc.o  -o copy_posting_list -lpthread 

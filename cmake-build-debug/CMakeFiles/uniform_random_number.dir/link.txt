@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/uniform_random_number.dir/uniform_random_number.cc.o  -o uniform_random_number -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/max_product_all_but_one.dir/max_product_all_but_one.cc.o  -o max_product_all_but_one -lpthread 

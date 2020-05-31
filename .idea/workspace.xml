@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="epi_judge_cpp" targetName="count_bits" />
+      <config projectName="epi_judge_cpp" targetName="tree_with_parent_inorder" />
+      <config projectName="epi_judge_cpp" targetName="delete_from_list" />
+      <config projectName="epi_judge_cpp" targetName="kth_largest_element_in_long_array" />
+      <config projectName="epi_judge_cpp" targetName="kth_node_in_tree" />
+      <config projectName="epi_judge_cpp" targetName="picking_up_coins" />
+      <config projectName="epi_judge_cpp" targetName="longest_subarray_with_distinct_values" />
+      <config projectName="epi_judge_cpp" targetName="maximum_subarray_in_circular_array" />
+      <config projectName="epi_judge_cpp" targetName="nonuniform_random_number" />
+      <config projectName="epi_judge_cpp" targetName="max_product_all_but_one" />
+      <config projectName="epi_judge_cpp" targetName="next_permutation" />
+      <config projectName="epi_judge_cpp" targetName="longest_increasing_subarray" />
+      <config projectName="epi_judge_cpp" targetName="deadlock_detection" />
+      <config projectName="epi_judge_cpp" targetName="longest_substring_with_matching_parentheses" />
+      <config projectName="epi_judge_cpp" targetName="n_queens" />
+      <config projectName="epi_judge_cpp" targetName="swap_bits" />
+      <config projectName="epi_judge_cpp" targetName="buy_and_sell_stock" />
+      <config projectName="epi_judge_cpp" targetName="power_x_y" />
+      <config projectName="epi_judge_cpp" targetName="is_valid_parenthesization" />
+      <config projectName="epi_judge_cpp" targetName="run_length_compression" />
+      <config projectName="epi_judge_cpp" targetName="is_array_dominated" />
+      <config projectName="epi_judge_cpp" targetName="longest_subarray_with_sum_constraint" />
+      <config projectName="epi_judge_cpp" targetName="power_set" />
+      <config projectName="epi_judge_cpp" targetName="longest_nondecreasing_subsequence" />
+      <config projectName="epi_judge_cpp" targetName="two_sum" />
+      <config projectName="epi_judge_cpp" targetName="sorted_arrays_merge" />
+      <config projectName="epi_judge_cpp" targetName="bst_to_sorted_list" />
+      <config projectName="epi_judge_cpp" targetName="making_change" />
+      <config projectName="epi_judge_cpp" targetName="euclidean_gcd" />
+      <config projectName="epi_judge_cpp" targetName="dutch_national_flag" />
+      <config projectName="epi_judge_cpp" targetName="k_largest_in_heap" />
+      <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor_with_parent" />
+      <config projectName="epi_judge_cpp" targetName="k_closest_stars" />
+      <config projectName="epi_judge_cpp" targetName="even_odd_list_merge" />
+      <config projectName="epi_judge_cpp" targetName="parity" />
+      <config projectName="epi_judge_cpp" targetName="apply_permutation" />
+      <config projectName="epi_judge_cpp" targetName="is_tree_a_bst" />
+      <config projectName="epi_judge_cpp" targetName="remove_duplicates_from_sorted_list" />
+      <config projectName="epi_judge_cpp" targetName="string_decompositions_into_dictionary_words" />
+      <config projectName="epi_judge_cpp" targetName="bst_from_sorted_array" />
+      <config projectName="epi_judge_cpp" targetName="even_odd_array" />
+      <config projectName="epi_judge_cpp" targetName="adding_credits" />
+      <config projectName="epi_judge_cpp" targetName="number_of_traversals_staircase" />
+      <config projectName="epi_judge_cpp" targetName="tree_from_preorder_with_null" />
+      <config projectName="epi_judge_cpp" targetName="intervals_union" />
+      <config projectName="epi_judge_cpp" targetName="a_b_sqrt2" />
+      <config projectName="epi_judge_cpp" targetName="is_string_palindromic" />
+      <config projectName="epi_judge_cpp" targetName="first_missing_positive_entry" />
+      <config projectName="epi_judge_cpp" targetName="kth_largest_element_in_two_sorted_arrays" />
+      <config projectName="epi_judge_cpp" targetName="primitive_multiply" />
+      <config projectName="epi_judge_cpp" targetName="search_shifted_sorted_array" />
+      <config projectName="epi_judge_cpp" targetName="circular_queue" />
+      <config projectName="epi_judge_cpp" targetName="bst_merge" />
+      <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor_close_ancestor" />
+      <config projectName="epi_judge_cpp" targetName="do_terminated_lists_overlap" />
+      <config projectName="epi_judge_cpp" targetName="regular_expression" />
+      <config projectName="epi_judge_cpp" targetName="is_list_cyclic" />
+      <config projectName="epi_judge_cpp" targetName="is_tree_balanced" />
+      <config projectName="epi_judge_cpp" targetName="reverse_sublist" />
+      <config projectName="epi_judge_cpp" targetName="sudoku_solve" />
+      <config projectName="epi_judge_cpp" targetName="two_sorted_arrays_merge" />
+      <config projectName="epi_judge_cpp" targetName="drawing_skyline" />
+      <config projectName="epi_judge_cpp" targetName="buy_and_sell_stock_twice" />
+      <config projectName="epi_judge_cpp" targetName="int_as_array_multiply" />
+      <config projectName="epi_judge_cpp" targetName="enumerate_palindromic_decompositions" />
+      <config projectName="epi_judge_cpp" targetName="nearest_repeated_entries" />
+      <config projectName="epi_judge_cpp" targetName="bst_from_preorder" />
+      <config projectName="epi_judge_cpp" targetName="closest_int_same_weight" />
+      <config projectName="epi_judge_cpp" targetName="number_of_traversals_matrix" />
+      <config projectName="epi_judge_cpp" targetName="task_pairing" />
+      <config projectName="epi_judge_cpp" targetName="advance_by_offsets" />
+      <config projectName="epi_judge_cpp" targetName="sort_list" />
+      <config projectName="epi_judge_cpp" targetName="snake_string" />
+      <config projectName="epi_judge_cpp" targetName="range_lookup_in_bst" />
+      <config projectName="epi_judge_cpp" targetName="is_list_palindromic" />
+      <config projectName="epi_judge_cpp" targetName="group_equal_entries" />
+      <config projectName="epi_judge_cpp" targetName="is_tree_symmetric" />
+      <config projectName="epi_judge_cpp" targetName="minimum_distance_3_sorted_arrays" />
+      <config projectName="epi_judge_cpp" targetName="spiral_ordering" />
+      <config projectName="epi_judge_cpp" targetName="sorted_list_to_bst" />
+      <config projectName="epi_judge_cpp" targetName="search_entry_equal_to_index" />
+      <config projectName="epi_judge_cpp" targetName="random_permutation" />
+      <config projectName="epi_judge_cpp" targetName="enumerate_balanced_parentheses" />
+      <config projectName="epi_judge_cpp" targetName="search_unknown_length_array" />
+      <config projectName="epi_judge_cpp" targetName="directory_path_normalization" />
+      <config projectName="epi_judge_cpp" targetName="convert_base" />
+      <config projectName="epi_judge_cpp" targetName="random_subset" />
+      <config projectName="epi_judge_cpp" targetName="fibonacci" />
+      <config projectName="epi_judge_cpp" targetName="matrix_enclosed_regions" />
+      <config projectName="epi_judge_cpp" targetName="list_cyclic_right_shift" />
+      <config projectName="epi_judge_cpp" targetName="reverse_bits" />
+      <config projectName="epi_judge_cpp" targetName="h_index" />
+      <config projectName="epi_judge_cpp" targetName="refueling_schedule" />
+      <config projectName="epi_judge_cpp" targetName="phone_number_mnemonic" />
+      <config projectName="epi_judge_cpp" targetName="look_and_say" />
+      <config projectName="epi_judge_cpp" targetName="max_safe_height" />
+      <config projectName="epi_judge_cpp" targetName="max_water_trappable" />
+      <config projectName="epi_judge_cpp" targetName="graph_clone" />
+      <config projectName="epi_judge_cpp" targetName="pivot_list" />
+      <config projectName="epi_judge_cpp" targetName="left_right_justify_text" />
+      <config projectName="epi_judge_cpp" targetName="is_circuit_wirable" />
+      <config projectName="epi_judge_cpp" targetName="sorted_lists_merge" />
+      <config projectName="epi_judge_cpp" targetName="search_maze" />
+      <config projectName="epi_judge_cpp" targetName="tree_right_sibling" />
+      <config projectName="epi_judge_cpp" targetName="max_submatrix" />
+      <config projectName="epi_judge_cpp" targetName="element_appearing_once" />
+      <config projectName="epi_judge_cpp" targetName="levenshtein_distance" />
+      <config projectName="epi_judge_cpp" targetName="bonus" />
+      <config projectName="epi_judge_cpp" targetName="longest_contained_interval" />
+      <config projectName="epi_judge_cpp" targetName="rectangle_intersection" />
+      <config projectName="epi_judge_cpp" targetName="uniform_random_number" />
+      <config projectName="epi_judge_cpp" targetName="k_largest_values_in_bst" />
+      <config projectName="epi_judge_cpp" targetName="delete_kth_last_from_list" />
+      <config projectName="epi_judge_cpp" targetName="find_salary_threshold" />
+      <config projectName="epi_judge_cpp" targetName="search_first_key" />
+      <config projectName="epi_judge_cpp" targetName="smallest_nonconstructible_value" />
+      <config projectName="epi_judge_cpp" targetName="intersect_sorted_arrays" />
+      <config projectName="epi_judge_cpp" targetName="reverse_digits" />
+      <config projectName="epi_judge_cpp" targetName="defective_jugs" />
+      <config projectName="epi_judge_cpp" targetName="reverse_words" />
+      <config projectName="epi_judge_cpp" targetName="search_for_missing_element" />
+      <config projectName="epi_judge_cpp" targetName="sum_root_to_leaf" />
+      <config projectName="epi_judge_cpp" targetName="binomial_coefficients" />
+      <config projectName="epi_judge_cpp" targetName="tree_connect_leaves" />
+      <config projectName="epi_judge_cpp" targetName="search_first_greater_value_in_bst" />
+      <config projectName="epi_judge_cpp" targetName="largest_rectangle_under_skyline" />
+      <config projectName="epi_judge_cpp" targetName="minimum_weight_path_in_a_triangle" />
+      <config projectName="epi_judge_cpp" targetName="insert_in_list" />
+      <config projectName="epi_judge_cpp" targetName="matrix_rotation" />
+      <config projectName="epi_judge_cpp" targetName="real_square_root" />
+      <config projectName="epi_judge_cpp" targetName="int_square_root" />
+      <config projectName="epi_judge_cpp" targetName="knapsack" />
+      <config projectName="epi_judge_cpp" targetName="remove_duplicates" />
+      <config projectName="epi_judge_cpp" targetName="lru_cache" />
+      <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor" />
+      <config projectName="epi_judge_cpp" targetName="int_as_list_add" />
+      <config projectName="epi_judge_cpp" targetName="queue_with_max" />
+      <config projectName="epi_judge_cpp" targetName="search_row_col_sorted_matrix" />
+      <config projectName="epi_judge_cpp" targetName="gcd" />
+      <config projectName="epi_judge_cpp" targetName="string_integer_interconversion" />
+      <config projectName="epi_judge_cpp" targetName="zip_list" />
+      <config projectName="epi_judge_cpp" targetName="offline_sampling" />
+      <config projectName="epi_judge_cpp" targetName="max_trapped_water" />
+      <config projectName="epi_judge_cpp" targetName="max_square_submatrix" />
+      <config projectName="epi_judge_cpp" targetName="evaluate_rpn" />
+      <config projectName="epi_judge_cpp" targetName="alternating_array" />
+      <config projectName="epi_judge_cpp" targetName="descendant_and_ancestor_in_bst" />
+      <config projectName="epi_judge_cpp" targetName="is_string_palindromic_punctuation" />
+      <config projectName="epi_judge_cpp" targetName="is_string_permutable_to_palindrome" />
+      <config projectName="epi_judge_cpp" targetName="prime_sieve" />
+      <config projectName="epi_judge_cpp" targetName="three_sum" />
+      <config projectName="epi_judge_cpp" targetName="tree_from_preorder_inorder" />
+      <config projectName="epi_judge_cpp" targetName="is_string_in_matrix" />
+      <config projectName="epi_judge_cpp" targetName="is_valid_sudoku" />
+      <config projectName="epi_judge_cpp" targetName="combinations" />
+      <config projectName="epi_judge_cpp" targetName="max_teams_in_photograph" />
+      <config projectName="epi_judge_cpp" targetName="insert_operators_in_string" />
+      <config projectName="epi_judge_cpp" targetName="gray_code" />
+      <config projectName="epi_judge_cpp" targetName="road_network" />
+      <config projectName="epi_judge_cpp" targetName="online_sampling" />
+      <config projectName="epi_judge_cpp" targetName="substring_match" />
+      <config projectName="epi_judge_cpp" targetName="anagrams" />
+      <config projectName="epi_judge_cpp" targetName="int_as_array_increment" />
+      <config projectName="epi_judge_cpp" targetName="number_of_score_combinations" />
+      <config projectName="epi_judge_cpp" targetName="calendar_rendering" />
+      <config projectName="epi_judge_cpp" targetName="sorted_array_remove_dups" />
+      <config projectName="epi_judge_cpp" targetName="is_number_palindromic" />
+      <config projectName="epi_judge_cpp" targetName="replace_and_remove" />
+      <config projectName="epi_judge_cpp" targetName="collatz_checker" />
+      <config projectName="epi_judge_cpp" targetName="sort_almost_sorted_array" />
+      <config projectName="epi_judge_cpp" targetName="rotate_array" />
+      <config projectName="epi_judge_cpp" targetName="primitive_divide" />
+      <config projectName="epi_judge_cpp" targetName="delete_node_from_list" />
+      <config projectName="epi_judge_cpp" targetName="stack_with_max" />
+      <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor_in_bst" />
+      <config projectName="epi_judge_cpp" targetName="roman_to_integer" />
+      <config projectName="epi_judge_cpp" targetName="smallest_subarray_covering_all_values" />
+      <config projectName="epi_judge_cpp" targetName="arbitrage" />
+      <config projectName="epi_judge_cpp" targetName="sort_increasing_decreasing_array" />
+      <config projectName="epi_judge_cpp" targetName="search_frequent_items" />
+      <config projectName="epi_judge_cpp" targetName="tree_inorder" />
+      <config projectName="epi_judge_cpp" targetName="pretty_printing" />
+      <config projectName="epi_judge_cpp" targetName="spreadsheet_encoding" />
+      <config projectName="epi_judge_cpp" targetName="hanoi" />
+      <config projectName="epi_judge_cpp" targetName="permutations" />
+      <config projectName="epi_judge_cpp" targetName="smallest_subarray_covering_set" />
+      <config projectName="epi_judge_cpp" targetName="absent_value_array" />
+      <config projectName="epi_judge_cpp" targetName="tree_level_order" />
+      <config projectName="epi_judge_cpp" targetName="rook_attack" />
+      <config projectName="epi_judge_cpp" targetName="tree_postorder" />
+      <config projectName="epi_judge_cpp" targetName="max_sum_subarray" />
+      <config projectName="epi_judge_cpp" targetName="minimum_waiting_time" />
+      <config projectName="epi_judge_cpp" targetName="tree_exterior" />
+      <config projectName="epi_judge_cpp" targetName="matrix_connected_regions" />
+      <config projectName="epi_judge_cpp" targetName="interval_add" />
+      <config projectName="epi_judge_cpp" targetName="enumerate_trees" />
+      <config projectName="epi_judge_cpp" targetName="buy_and_sell_stock_k_times" />
+      <config projectName="epi_judge_cpp" targetName="string_transformability" />
+      <config projectName="epi_judge_cpp" targetName="majority_element" />
+      <config projectName="epi_judge_cpp" targetName="is_anonymous_letter_constructible" />
+      <config projectName="epi_judge_cpp" targetName="tree_preorder" />
+      <config projectName="epi_judge_cpp" targetName="line_through_most_points" />
+      <config projectName="epi_judge_cpp" targetName="online_median" />
+      <config projectName="epi_judge_cpp" targetName="valid_ip_addresses" />
+      <config projectName="epi_judge_cpp" targetName="pascal_triangle" />
+      <config projectName="epi_judge_cpp" targetName="kth_largest_in_array" />
+      <config projectName="epi_judge_cpp" targetName="max_of_sliding_window" />
+      <config projectName="epi_judge_cpp" targetName="search_in_list" />
+      <config projectName="epi_judge_cpp" targetName="is_string_decomposable_into_words" />
+      <config projectName="epi_judge_cpp" targetName="do_lists_overlap" />
+      <config projectName="epi_judge_cpp" targetName="successor_in_tree" />
+      <config projectName="epi_judge_cpp" targetName="path_sum" />
+      <config projectName="epi_judge_cpp" targetName="search_in_bst" />
+      <config projectName="epi_judge_cpp" targetName="search_for_min_max_in_array" />
+      <config projectName="epi_judge_cpp" targetName="minimum_points_covering_intervals" />
+      <config projectName="epi_judge_cpp" targetName="count_inversions" />
+      <config projectName="epi_judge_cpp" targetName="huffman_coding" />
+      <config projectName="epi_judge_cpp" targetName="sunset_view" />
+      <config projectName="epi_judge_cpp" targetName="copy_posting_list" />
+      <config projectName="epi_judge_cpp" targetName="queue_from_stacks" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1147450136">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cc" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cc" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bst_from_sorted_array.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a_b_sqrt2.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="651" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="epi_judge_cpp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epi_judge_cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.a_b_sqrt2">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a_b_sqrt2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="a_b_sqrt2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="a_b_sqrt2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="absent_value_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="absent_value_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="absent_value_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="adding_credits" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="adding_credits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="adding_credits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="advance_by_offsets" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="advance_by_offsets" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="advance_by_offsets">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alternating_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="alternating_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="alternating_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="anagrams" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="anagrams" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="anagrams">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="apply_permutation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="apply_permutation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="apply_permutation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arbitrage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="arbitrage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="arbitrage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="binomial_coefficients" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="binomial_coefficients" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="binomial_coefficients">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bonus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="bonus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="bonus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bst_from_preorder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="bst_from_preorder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="bst_from_preorder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bst_from_sorted_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="bst_from_sorted_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="bst_from_sorted_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bst_merge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="bst_merge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="bst_merge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bst_to_sorted_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="bst_to_sorted_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="bst_to_sorted_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="buy_and_sell_stock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="buy_and_sell_stock" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="buy_and_sell_stock">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="buy_and_sell_stock_k_times" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="buy_and_sell_stock_k_times" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="buy_and_sell_stock_k_times">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="buy_and_sell_stock_twice" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="buy_and_sell_stock_twice" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="buy_and_sell_stock_twice">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calendar_rendering" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="calendar_rendering" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="calendar_rendering">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="circular_queue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="circular_queue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="circular_queue">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="closest_int_same_weight" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="closest_int_same_weight" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="closest_int_same_weight">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="collatz_checker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="collatz_checker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="collatz_checker">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="combinations" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="combinations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="combinations">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="convert_base" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="convert_base" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="convert_base">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="copy_posting_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="copy_posting_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="copy_posting_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="count_bits" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="count_bits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="count_bits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="count_inversions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="count_inversions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="count_inversions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deadlock_detection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="deadlock_detection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="deadlock_detection">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="defective_jugs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="defective_jugs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="defective_jugs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="delete_from_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="delete_from_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="delete_from_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="delete_kth_last_from_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="delete_kth_last_from_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="delete_kth_last_from_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="delete_node_from_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="delete_node_from_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="delete_node_from_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="descendant_and_ancestor_in_bst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="descendant_and_ancestor_in_bst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="descendant_and_ancestor_in_bst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="directory_path_normalization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="directory_path_normalization" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="directory_path_normalization">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="do_lists_overlap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="do_lists_overlap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="do_lists_overlap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="do_terminated_lists_overlap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="do_terminated_lists_overlap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="do_terminated_lists_overlap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drawing_skyline" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="drawing_skyline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="drawing_skyline">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dutch_national_flag" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="dutch_national_flag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="dutch_national_flag">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="element_appearing_once" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="element_appearing_once" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="element_appearing_once">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumerate_balanced_parentheses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="enumerate_balanced_parentheses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="enumerate_balanced_parentheses">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumerate_palindromic_decompositions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="enumerate_palindromic_decompositions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="enumerate_palindromic_decompositions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumerate_trees" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="enumerate_trees" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="enumerate_trees">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="euclidean_gcd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="euclidean_gcd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="euclidean_gcd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="evaluate_rpn" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="evaluate_rpn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="evaluate_rpn">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="even_odd_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="even_odd_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="even_odd_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="even_odd_list_merge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="even_odd_list_merge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="even_odd_list_merge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fibonacci" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="fibonacci" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="fibonacci">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="find_salary_threshold" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="find_salary_threshold" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="find_salary_threshold">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="first_missing_positive_entry" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="first_missing_positive_entry" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="first_missing_positive_entry">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gcd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="gcd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="gcd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="graph_clone" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="graph_clone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="graph_clone">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gray_code" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="gray_code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="gray_code">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="group_equal_entries" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="group_equal_entries" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="group_equal_entries">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="h_index" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="h_index" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="h_index">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hanoi" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="hanoi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="hanoi">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="huffman_coding" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="huffman_coding" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="huffman_coding">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="insert_in_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="insert_in_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="insert_in_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="insert_operators_in_string" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="insert_operators_in_string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="insert_operators_in_string">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="int_as_array_increment" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="int_as_array_increment" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="int_as_array_increment">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="int_as_array_multiply" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="int_as_array_multiply" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="int_as_array_multiply">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="int_as_list_add" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="int_as_list_add" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="int_as_list_add">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="int_square_root" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="int_square_root" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="int_square_root">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="intersect_sorted_arrays" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="intersect_sorted_arrays" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="intersect_sorted_arrays">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interval_add" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="interval_add" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="interval_add">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="intervals_union" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="intervals_union" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="intervals_union">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_anonymous_letter_constructible" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_anonymous_letter_constructible" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_anonymous_letter_constructible">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_array_dominated" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_array_dominated" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_array_dominated">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_circuit_wirable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_circuit_wirable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_circuit_wirable">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_list_cyclic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_list_cyclic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_list_cyclic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_list_palindromic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_list_palindromic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_list_palindromic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_number_palindromic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_number_palindromic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_number_palindromic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_string_decomposable_into_words" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_string_decomposable_into_words" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_string_decomposable_into_words">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_string_in_matrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_string_in_matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_string_in_matrix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_string_palindromic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_string_palindromic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_string_palindromic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_string_palindromic_punctuation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_string_palindromic_punctuation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_string_palindromic_punctuation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_string_permutable_to_palindrome" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_string_permutable_to_palindrome" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_string_permutable_to_palindrome">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_tree_a_bst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_tree_a_bst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_tree_a_bst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_tree_balanced" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_tree_balanced" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_tree_balanced">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_tree_symmetric" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_tree_symmetric" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_tree_symmetric">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_valid_parenthesization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_valid_parenthesization" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_valid_parenthesization">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_valid_sudoku" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="is_valid_sudoku" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="is_valid_sudoku">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="k_closest_stars" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="k_closest_stars" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="k_closest_stars">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="k_largest_in_heap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="k_largest_in_heap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="k_largest_in_heap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="k_largest_values_in_bst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="k_largest_values_in_bst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="k_largest_values_in_bst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="knapsack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="knapsack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="knapsack">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kth_largest_element_in_long_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="kth_largest_element_in_long_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="kth_largest_element_in_long_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kth_largest_element_in_two_sorted_arrays" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="kth_largest_element_in_two_sorted_arrays" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="kth_largest_element_in_two_sorted_arrays">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kth_largest_in_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="kth_largest_in_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="kth_largest_in_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kth_node_in_tree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="kth_node_in_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="kth_node_in_tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="largest_rectangle_under_skyline" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="largest_rectangle_under_skyline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="largest_rectangle_under_skyline">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="left_right_justify_text" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="left_right_justify_text" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="left_right_justify_text">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="levenshtein_distance" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="levenshtein_distance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="levenshtein_distance">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="line_through_most_points" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="line_through_most_points" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="line_through_most_points">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="list_cyclic_right_shift" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="list_cyclic_right_shift" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="list_cyclic_right_shift">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_contained_interval" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="longest_contained_interval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="longest_contained_interval">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_increasing_subarray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="longest_increasing_subarray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="longest_increasing_subarray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_nondecreasing_subsequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="longest_nondecreasing_subsequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="longest_nondecreasing_subsequence">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_subarray_with_distinct_values" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="longest_subarray_with_distinct_values" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="longest_subarray_with_distinct_values">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_subarray_with_sum_constraint" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="longest_subarray_with_sum_constraint" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="longest_subarray_with_sum_constraint">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_substring_with_matching_parentheses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="longest_substring_with_matching_parentheses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="longest_substring_with_matching_parentheses">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="look_and_say" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="look_and_say" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="look_and_say">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lowest_common_ancestor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="lowest_common_ancestor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="lowest_common_ancestor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lowest_common_ancestor_close_ancestor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="lowest_common_ancestor_close_ancestor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="lowest_common_ancestor_close_ancestor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lowest_common_ancestor_in_bst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="lowest_common_ancestor_in_bst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="lowest_common_ancestor_in_bst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lowest_common_ancestor_with_parent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="lowest_common_ancestor_with_parent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="lowest_common_ancestor_with_parent">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lru_cache" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="lru_cache" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="lru_cache">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="majority_element" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="majority_element" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="majority_element">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="making_change" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="making_change" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="making_change">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrix_connected_regions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="matrix_connected_regions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="matrix_connected_regions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrix_enclosed_regions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="matrix_enclosed_regions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="matrix_enclosed_regions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrix_rotation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="matrix_rotation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="matrix_rotation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_of_sliding_window" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_of_sliding_window" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_of_sliding_window">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_product_all_but_one" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_product_all_but_one" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_product_all_but_one">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_safe_height" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_safe_height" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_safe_height">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_square_submatrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_square_submatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_square_submatrix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_submatrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_submatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_submatrix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_sum_subarray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_sum_subarray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_sum_subarray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_teams_in_photograph" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_teams_in_photograph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_teams_in_photograph">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_trapped_water" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_trapped_water" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_trapped_water">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_water_trappable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="max_water_trappable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="max_water_trappable">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maximum_subarray_in_circular_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="maximum_subarray_in_circular_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="maximum_subarray_in_circular_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minimum_distance_3_sorted_arrays" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="minimum_distance_3_sorted_arrays" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="minimum_distance_3_sorted_arrays">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minimum_points_covering_intervals" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="minimum_points_covering_intervals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="minimum_points_covering_intervals">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minimum_waiting_time" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="minimum_waiting_time" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="minimum_waiting_time">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minimum_weight_path_in_a_triangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="minimum_weight_path_in_a_triangle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="minimum_weight_path_in_a_triangle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="n_queens" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="n_queens" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="n_queens">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nearest_repeated_entries" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="nearest_repeated_entries" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="nearest_repeated_entries">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="next_permutation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="next_permutation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="next_permutation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nonuniform_random_number" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="nonuniform_random_number" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="nonuniform_random_number">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="number_of_score_combinations" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="number_of_score_combinations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="number_of_score_combinations">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="number_of_traversals_matrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="number_of_traversals_matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="number_of_traversals_matrix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="number_of_traversals_staircase" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="number_of_traversals_staircase" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="number_of_traversals_staircase">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="offline_sampling" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="offline_sampling" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="offline_sampling">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="online_median" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="online_median" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="online_median">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="online_sampling" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="online_sampling" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="online_sampling">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="parity" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="parity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="parity">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pascal_triangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="pascal_triangle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="pascal_triangle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="path_sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="path_sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="path_sum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="permutations" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="permutations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="permutations">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="phone_number_mnemonic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="phone_number_mnemonic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="phone_number_mnemonic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="picking_up_coins" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="picking_up_coins" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="picking_up_coins">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pivot_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="pivot_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="pivot_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="power_set" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="power_set" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="power_set">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="power_x_y" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="power_x_y" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="power_x_y">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pretty_printing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="pretty_printing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="pretty_printing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prime_sieve" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="prime_sieve" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="prime_sieve">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="primitive_divide" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="primitive_divide" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="primitive_divide">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="primitive_multiply" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="primitive_multiply" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="primitive_multiply">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="queue_from_stacks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="queue_from_stacks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="queue_from_stacks">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="queue_with_max" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="queue_with_max" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="queue_with_max">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="random_permutation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="random_permutation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="random_permutation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="random_subset" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="random_subset" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="random_subset">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="range_lookup_in_bst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="range_lookup_in_bst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="range_lookup_in_bst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="real_square_root" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="real_square_root" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="real_square_root">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rectangle_intersection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="rectangle_intersection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="rectangle_intersection">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="refueling_schedule" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="refueling_schedule" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="refueling_schedule">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="regular_expression" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="regular_expression" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="regular_expression">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="remove_duplicates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="remove_duplicates" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="remove_duplicates">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="remove_duplicates_from_sorted_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="remove_duplicates_from_sorted_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="remove_duplicates_from_sorted_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="replace_and_remove" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="replace_and_remove" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="replace_and_remove">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_bits" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="reverse_bits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="reverse_bits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_digits" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="reverse_digits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="reverse_digits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_sublist" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="reverse_sublist" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="reverse_sublist">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_words" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="reverse_words" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="reverse_words">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="road_network" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="road_network" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="road_network">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roman_to_integer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="roman_to_integer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="roman_to_integer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rook_attack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="rook_attack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="rook_attack">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rotate_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="rotate_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="rotate_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_length_compression" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="run_length_compression" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="run_length_compression">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_entry_equal_to_index" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_entry_equal_to_index" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_entry_equal_to_index">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_first_greater_value_in_bst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_first_greater_value_in_bst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_first_greater_value_in_bst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_first_key" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_first_key" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_first_key">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_for_min_max_in_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_for_min_max_in_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_for_min_max_in_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_for_missing_element" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_for_missing_element" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_for_missing_element">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_frequent_items" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_frequent_items" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_frequent_items">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_in_bst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_in_bst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_in_bst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_in_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_in_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_in_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_maze" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_maze" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_maze">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_row_col_sorted_matrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_row_col_sorted_matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_row_col_sorted_matrix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_shifted_sorted_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_shifted_sorted_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_shifted_sorted_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_unknown_length_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="search_unknown_length_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="search_unknown_length_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="smallest_nonconstructible_value" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="smallest_nonconstructible_value" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="smallest_nonconstructible_value">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="smallest_subarray_covering_all_values" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="smallest_subarray_covering_all_values" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="smallest_subarray_covering_all_values">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="smallest_subarray_covering_set" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="smallest_subarray_covering_set" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="smallest_subarray_covering_set">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="snake_string" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="snake_string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="snake_string">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort_almost_sorted_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sort_almost_sorted_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sort_almost_sorted_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort_increasing_decreasing_array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sort_increasing_decreasing_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sort_increasing_decreasing_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sort_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sort_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorted_array_remove_dups" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sorted_array_remove_dups" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sorted_array_remove_dups">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorted_arrays_merge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sorted_arrays_merge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sorted_arrays_merge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorted_list_to_bst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sorted_list_to_bst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sorted_list_to_bst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorted_lists_merge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sorted_lists_merge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sorted_lists_merge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spiral_ordering" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="spiral_ordering" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="spiral_ordering">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spreadsheet_encoding" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="spreadsheet_encoding" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="spreadsheet_encoding">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stack_with_max" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="stack_with_max" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="stack_with_max">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_decompositions_into_dictionary_words" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="string_decompositions_into_dictionary_words" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="string_decompositions_into_dictionary_words">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_integer_interconversion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="string_integer_interconversion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="string_integer_interconversion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_transformability" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="string_transformability" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="string_transformability">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="substring_match" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="substring_match" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="substring_match">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="successor_in_tree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="successor_in_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="successor_in_tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sudoku_solve" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sudoku_solve" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sudoku_solve">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sum_root_to_leaf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sum_root_to_leaf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sum_root_to_leaf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sunset_view" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="sunset_view" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="sunset_view">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swap_bits" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="swap_bits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="swap_bits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task_pairing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="task_pairing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="task_pairing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="three_sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="three_sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="three_sum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_connect_leaves" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_connect_leaves" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_connect_leaves">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_exterior" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_exterior" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_exterior">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_from_preorder_inorder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_from_preorder_inorder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_from_preorder_inorder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_from_preorder_with_null" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_from_preorder_with_null" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_from_preorder_with_null">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_inorder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_inorder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_inorder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_level_order" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_level_order" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_level_order">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_postorder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_postorder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_postorder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_preorder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_preorder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_preorder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_right_sibling" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_right_sibling" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_right_sibling">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree_with_parent_inorder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="tree_with_parent_inorder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="tree_with_parent_inorder">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="two_sorted_arrays_merge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="two_sorted_arrays_merge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="two_sorted_arrays_merge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="two_sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="two_sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="two_sum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uniform_random_number" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="uniform_random_number" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="uniform_random_number">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="valid_ip_addresses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="valid_ip_addresses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="valid_ip_addresses">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zip_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="epi_judge_cpp" TARGET_NAME="zip_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="epi_judge_cpp" RUN_TARGET_NAME="zip_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.a_b_sqrt2" />
+      <item itemvalue="Application.absent_value_array" />
+      <item itemvalue="Application.adding_credits" />
+      <item itemvalue="Application.advance_by_offsets" />
+      <item itemvalue="Application.alternating_array" />
+      <item itemvalue="Application.anagrams" />
+      <item itemvalue="Application.apply_permutation" />
+      <item itemvalue="Application.arbitrage" />
+      <item itemvalue="Application.binomial_coefficients" />
+      <item itemvalue="Application.bonus" />
+      <item itemvalue="Application.bst_from_preorder" />
+      <item itemvalue="Application.bst_from_sorted_array" />
+      <item itemvalue="Application.bst_merge" />
+      <item itemvalue="Application.bst_to_sorted_list" />
+      <item itemvalue="Application.buy_and_sell_stock" />
+      <item itemvalue="Application.buy_and_sell_stock_k_times" />
+      <item itemvalue="Application.buy_and_sell_stock_twice" />
+      <item itemvalue="Application.calendar_rendering" />
+      <item itemvalue="Application.circular_queue" />
+      <item itemvalue="Application.closest_int_same_weight" />
+      <item itemvalue="Application.collatz_checker" />
+      <item itemvalue="Application.combinations" />
+      <item itemvalue="Application.convert_base" />
+      <item itemvalue="Application.copy_posting_list" />
+      <item itemvalue="Application.count_bits" />
+      <item itemvalue="Application.count_inversions" />
+      <item itemvalue="Application.deadlock_detection" />
+      <item itemvalue="Application.defective_jugs" />
+      <item itemvalue="Application.delete_from_list" />
+      <item itemvalue="Application.delete_kth_last_from_list" />
+      <item itemvalue="Application.delete_node_from_list" />
+      <item itemvalue="Application.descendant_and_ancestor_in_bst" />
+      <item itemvalue="Application.directory_path_normalization" />
+      <item itemvalue="Application.do_lists_overlap" />
+      <item itemvalue="Application.do_terminated_lists_overlap" />
+      <item itemvalue="Application.drawing_skyline" />
+      <item itemvalue="Application.dutch_national_flag" />
+      <item itemvalue="Application.element_appearing_once" />
+      <item itemvalue="Application.enumerate_balanced_parentheses" />
+      <item itemvalue="Application.enumerate_palindromic_decompositions" />
+      <item itemvalue="Application.enumerate_trees" />
+      <item itemvalue="Application.euclidean_gcd" />
+      <item itemvalue="Application.evaluate_rpn" />
+      <item itemvalue="Application.even_odd_array" />
+      <item itemvalue="Application.even_odd_list_merge" />
+      <item itemvalue="Application.fibonacci" />
+      <item itemvalue="Application.find_salary_threshold" />
+      <item itemvalue="Application.first_missing_positive_entry" />
+      <item itemvalue="Application.gcd" />
+      <item itemvalue="Application.graph_clone" />
+      <item itemvalue="Application.gray_code" />
+      <item itemvalue="Application.group_equal_entries" />
+      <item itemvalue="Application.h_index" />
+      <item itemvalue="Application.hanoi" />
+      <item itemvalue="Application.huffman_coding" />
+      <item itemvalue="Application.insert_in_list" />
+      <item itemvalue="Application.insert_operators_in_string" />
+      <item itemvalue="Application.int_as_array_increment" />
+      <item itemvalue="Application.int_as_array_multiply" />
+      <item itemvalue="Application.int_as_list_add" />
+      <item itemvalue="Application.int_square_root" />
+      <item itemvalue="Application.intersect_sorted_arrays" />
+      <item itemvalue="Application.interval_add" />
+      <item itemvalue="Application.intervals_union" />
+      <item itemvalue="Application.is_anonymous_letter_constructible" />
+      <item itemvalue="Application.is_array_dominated" />
+      <item itemvalue="Application.is_circuit_wirable" />
+      <item itemvalue="Application.is_list_cyclic" />
+      <item itemvalue="Application.is_list_palindromic" />
+      <item itemvalue="Application.is_number_palindromic" />
+      <item itemvalue="Application.is_string_decomposable_into_words" />
+      <item itemvalue="Application.is_string_in_matrix" />
+      <item itemvalue="Application.is_string_palindromic" />
+      <item itemvalue="Application.is_string_palindromic_punctuation" />
+      <item itemvalue="Application.is_string_permutable_to_palindrome" />
+      <item itemvalue="Application.is_tree_a_bst" />
+      <item itemvalue="Application.is_tree_balanced" />
+      <item itemvalue="Application.is_tree_symmetric" />
+      <item itemvalue="Application.is_valid_parenthesization" />
+      <item itemvalue="Application.is_valid_sudoku" />
+      <item itemvalue="Application.k_closest_stars" />
+      <item itemvalue="Application.k_largest_in_heap" />
+      <item itemvalue="Application.k_largest_values_in_bst" />
+      <item itemvalue="Application.knapsack" />
+      <item itemvalue="Application.kth_largest_element_in_long_array" />
+      <item itemvalue="Application.kth_largest_element_in_two_sorted_arrays" />
+      <item itemvalue="Application.kth_largest_in_array" />
+      <item itemvalue="Application.kth_node_in_tree" />
+      <item itemvalue="Application.largest_rectangle_under_skyline" />
+      <item itemvalue="Application.left_right_justify_text" />
+      <item itemvalue="Application.levenshtein_distance" />
+      <item itemvalue="Application.line_through_most_points" />
+      <item itemvalue="Application.list_cyclic_right_shift" />
+      <item itemvalue="Application.longest_contained_interval" />
+      <item itemvalue="Application.longest_increasing_subarray" />
+      <item itemvalue="Application.longest_nondecreasing_subsequence" />
+      <item itemvalue="Application.longest_subarray_with_distinct_values" />
+      <item itemvalue="Application.longest_subarray_with_sum_constraint" />
+      <item itemvalue="Application.longest_substring_with_matching_parentheses" />
+      <item itemvalue="Application.look_and_say" />
+      <item itemvalue="Application.lowest_common_ancestor" />
+      <item itemvalue="Application.lowest_common_ancestor_close_ancestor" />
+      <item itemvalue="Application.lowest_common_ancestor_in_bst" />
+      <item itemvalue="Application.lowest_common_ancestor_with_parent" />
+      <item itemvalue="Application.lru_cache" />
+      <item itemvalue="Application.majority_element" />
+      <item itemvalue="Application.making_change" />
+      <item itemvalue="Application.matrix_connected_regions" />
+      <item itemvalue="Application.matrix_enclosed_regions" />
+      <item itemvalue="Application.matrix_rotation" />
+      <item itemvalue="Application.max_of_sliding_window" />
+      <item itemvalue="Application.max_product_all_but_one" />
+      <item itemvalue="Application.max_safe_height" />
+      <item itemvalue="Application.max_square_submatrix" />
+      <item itemvalue="Application.max_submatrix" />
+      <item itemvalue="Application.max_sum_subarray" />
+      <item itemvalue="Application.max_teams_in_photograph" />
+      <item itemvalue="Application.max_trapped_water" />
+      <item itemvalue="Application.max_water_trappable" />
+      <item itemvalue="Application.maximum_subarray_in_circular_array" />
+      <item itemvalue="Application.minimum_distance_3_sorted_arrays" />
+      <item itemvalue="Application.minimum_points_covering_intervals" />
+      <item itemvalue="Application.minimum_waiting_time" />
+      <item itemvalue="Application.minimum_weight_path_in_a_triangle" />
+      <item itemvalue="Application.n_queens" />
+      <item itemvalue="Application.nearest_repeated_entries" />
+      <item itemvalue="Application.next_permutation" />
+      <item itemvalue="Application.nonuniform_random_number" />
+      <item itemvalue="Application.number_of_score_combinations" />
+      <item itemvalue="Application.number_of_traversals_matrix" />
+      <item itemvalue="Application.number_of_traversals_staircase" />
+      <item itemvalue="Application.offline_sampling" />
+      <item itemvalue="Application.online_median" />
+      <item itemvalue="Application.online_sampling" />
+      <item itemvalue="Application.parity" />
+      <item itemvalue="Application.pascal_triangle" />
+      <item itemvalue="Application.path_sum" />
+      <item itemvalue="Application.permutations" />
+      <item itemvalue="Application.phone_number_mnemonic" />
+      <item itemvalue="Application.picking_up_coins" />
+      <item itemvalue="Application.pivot_list" />
+      <item itemvalue="Application.power_set" />
+      <item itemvalue="Application.power_x_y" />
+      <item itemvalue="Application.pretty_printing" />
+      <item itemvalue="Application.prime_sieve" />
+      <item itemvalue="Application.primitive_divide" />
+      <item itemvalue="Application.primitive_multiply" />
+      <item itemvalue="Application.queue_from_stacks" />
+      <item itemvalue="Application.queue_with_max" />
+      <item itemvalue="Application.random_permutation" />
+      <item itemvalue="Application.random_subset" />
+      <item itemvalue="Application.range_lookup_in_bst" />
+      <item itemvalue="Application.real_square_root" />
+      <item itemvalue="Application.rectangle_intersection" />
+      <item itemvalue="Application.refueling_schedule" />
+      <item itemvalue="Application.regular_expression" />
+      <item itemvalue="Application.remove_duplicates" />
+      <item itemvalue="Application.remove_duplicates_from_sorted_list" />
+      <item itemvalue="Application.replace_and_remove" />
+      <item itemvalue="Application.reverse_bits" />
+      <item itemvalue="Application.reverse_digits" />
+      <item itemvalue="Application.reverse_sublist" />
+      <item itemvalue="Application.reverse_words" />
+      <item itemvalue="Application.road_network" />
+      <item itemvalue="Application.roman_to_integer" />
+      <item itemvalue="Application.rook_attack" />
+      <item itemvalue="Application.rotate_array" />
+      <item itemvalue="Application.run_length_compression" />
+      <item itemvalue="Application.search_entry_equal_to_index" />
+      <item itemvalue="Application.search_first_greater_value_in_bst" />
+      <item itemvalue="Application.search_first_key" />
+      <item itemvalue="Application.search_for_min_max_in_array" />
+      <item itemvalue="Application.search_for_missing_element" />
+      <item itemvalue="Application.search_frequent_items" />
+      <item itemvalue="Application.search_in_bst" />
+      <item itemvalue="Application.search_in_list" />
+      <item itemvalue="Application.search_maze" />
+      <item itemvalue="Application.search_row_col_sorted_matrix" />
+      <item itemvalue="Application.search_shifted_sorted_array" />
+      <item itemvalue="Application.search_unknown_length_array" />
+      <item itemvalue="Application.smallest_nonconstructible_value" />
+      <item itemvalue="Application.smallest_subarray_covering_all_values" />
+      <item itemvalue="Application.smallest_subarray_covering_set" />
+      <item itemvalue="Application.snake_string" />
+      <item itemvalue="Application.sort_almost_sorted_array" />
+      <item itemvalue="Application.sort_increasing_decreasing_array" />
+      <item itemvalue="Application.sort_list" />
+      <item itemvalue="Application.sorted_array_remove_dups" />
+      <item itemvalue="Application.sorted_arrays_merge" />
+      <item itemvalue="Application.sorted_list_to_bst" />
+      <item itemvalue="Application.sorted_lists_merge" />
+      <item itemvalue="Application.spiral_ordering" />
+      <item itemvalue="Application.spreadsheet_encoding" />
+      <item itemvalue="Application.stack_with_max" />
+      <item itemvalue="Application.string_decompositions_into_dictionary_words" />
+      <item itemvalue="Application.string_integer_interconversion" />
+      <item itemvalue="Application.string_transformability" />
+      <item itemvalue="Application.substring_match" />
+      <item itemvalue="Application.successor_in_tree" />
+      <item itemvalue="Application.sudoku_solve" />
+      <item itemvalue="Application.sum_root_to_leaf" />
+      <item itemvalue="Application.sunset_view" />
+      <item itemvalue="Application.swap_bits" />
+      <item itemvalue="Application.task_pairing" />
+      <item itemvalue="Application.three_sum" />
+      <item itemvalue="Application.tree_connect_leaves" />
+      <item itemvalue="Application.tree_exterior" />
+      <item itemvalue="Application.tree_from_preorder_inorder" />
+      <item itemvalue="Application.tree_from_preorder_with_null" />
+      <item itemvalue="Application.tree_inorder" />
+      <item itemvalue="Application.tree_level_order" />
+      <item itemvalue="Application.tree_postorder" />
+      <item itemvalue="Application.tree_preorder" />
+      <item itemvalue="Application.tree_right_sibling" />
+      <item itemvalue="Application.tree_with_parent_inorder" />
+      <item itemvalue="Application.two_sorted_arrays_merge" />
+      <item itemvalue="Application.two_sum" />
+      <item itemvalue="Application.uniform_random_number" />
+      <item itemvalue="Application.valid_ip_addresses" />
+      <item itemvalue="Application.zip_list" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="" />
+      <created>1590963201999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590963201999</updated>
+      <workItem from="1590963204013" duration="259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="259000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="651" height="744" extended-state="4" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5240464" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972136" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.34634146" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972136" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bst_from_sorted_array.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a_b_sqrt2.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

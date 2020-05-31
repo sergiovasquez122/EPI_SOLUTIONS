@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/tree_connect_leaves.dir/tree_connect_leaves.cc.o  -o tree_connect_leaves -lpthread 

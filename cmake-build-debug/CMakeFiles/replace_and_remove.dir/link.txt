@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/replace_and_remove.dir/replace_and_remove.cc.o  -o replace_and_remove -lpthread 

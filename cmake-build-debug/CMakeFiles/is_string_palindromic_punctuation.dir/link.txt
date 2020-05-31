@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/is_string_palindromic_punctuation.dir/is_string_palindromic_punctuation.cc.o  -o is_string_palindromic_punctuation -lpthread 

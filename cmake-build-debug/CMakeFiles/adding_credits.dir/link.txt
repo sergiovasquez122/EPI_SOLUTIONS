@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/adding_credits.dir/adding_credits.cc.o  -o adding_credits -lpthread 

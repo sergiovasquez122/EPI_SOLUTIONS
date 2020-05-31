@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/insert_operators_in_string.dir/insert_operators_in_string.cc.o  -o insert_operators_in_string -lpthread 

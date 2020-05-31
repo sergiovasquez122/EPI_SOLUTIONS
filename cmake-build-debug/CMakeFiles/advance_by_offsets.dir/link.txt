@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/advance_by_offsets.dir/advance_by_offsets.cc.o  -o advance_by_offsets -lpthread 

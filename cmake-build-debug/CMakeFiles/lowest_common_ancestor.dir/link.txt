@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/lowest_common_ancestor.dir/lowest_common_ancestor.cc.o  -o lowest_common_ancestor -lpthread 

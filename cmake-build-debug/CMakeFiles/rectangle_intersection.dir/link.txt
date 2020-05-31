@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/rectangle_intersection.dir/rectangle_intersection.cc.o  -o rectangle_intersection -lpthread 

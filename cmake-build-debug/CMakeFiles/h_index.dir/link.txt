@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/h_index.dir/h_index.cc.o  -o h_index -lpthread 

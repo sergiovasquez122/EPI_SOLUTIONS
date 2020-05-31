@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cc.o  -o sorted_list_to_bst -lpthread 

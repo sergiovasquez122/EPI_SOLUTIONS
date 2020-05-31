@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/rook_attack.dir/rook_attack.cc.o  -o rook_attack -lpthread 

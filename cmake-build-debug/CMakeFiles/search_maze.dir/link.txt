@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/search_maze.dir/search_maze.cc.o  -o search_maze -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/collatz_checker.dir/collatz_checker.cc.o  -o collatz_checker -lpthread 

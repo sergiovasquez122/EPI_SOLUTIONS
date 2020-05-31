@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/kth_largest_element_in_long_array.dir/kth_largest_element_in_long_array.cc.o  -o kth_largest_element_in_long_array -lpthread 

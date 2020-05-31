@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/minimum_points_covering_intervals.dir/minimum_points_covering_intervals.cc.o  -o minimum_points_covering_intervals -lpthread 

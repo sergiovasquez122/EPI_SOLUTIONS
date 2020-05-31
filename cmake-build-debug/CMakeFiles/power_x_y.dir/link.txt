@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/power_x_y.dir/power_x_y.cc.o  -o power_x_y -lpthread 

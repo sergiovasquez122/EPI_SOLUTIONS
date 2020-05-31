@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/phone_number_mnemonic.dir/phone_number_mnemonic.cc.o  -o phone_number_mnemonic -lpthread 

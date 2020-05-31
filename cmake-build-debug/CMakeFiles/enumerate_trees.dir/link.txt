@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/enumerate_trees.dir/enumerate_trees.cc.o  -o enumerate_trees -lpthread 

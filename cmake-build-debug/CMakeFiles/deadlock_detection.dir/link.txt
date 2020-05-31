@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/deadlock_detection.dir/deadlock_detection.cc.o  -o deadlock_detection -lpthread 

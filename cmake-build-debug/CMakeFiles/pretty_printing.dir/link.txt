@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/pretty_printing.dir/pretty_printing.cc.o  -o pretty_printing -lpthread 

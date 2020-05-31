@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/task_pairing.dir/task_pairing.cc.o  -o task_pairing -lpthread 

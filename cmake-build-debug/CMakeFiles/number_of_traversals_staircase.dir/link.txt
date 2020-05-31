@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/number_of_traversals_staircase.dir/number_of_traversals_staircase.cc.o  -o number_of_traversals_staircase -lpthread 

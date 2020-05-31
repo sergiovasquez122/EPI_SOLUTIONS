@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/k_closest_stars.dir/k_closest_stars.cc.o  -o k_closest_stars -lpthread 

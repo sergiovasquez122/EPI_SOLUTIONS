@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/queue_from_stacks.dir/queue_from_stacks.cc.o  -o queue_from_stacks -lpthread 

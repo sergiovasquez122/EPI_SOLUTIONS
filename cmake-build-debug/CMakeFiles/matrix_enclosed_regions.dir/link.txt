@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/matrix_enclosed_regions.dir/matrix_enclosed_regions.cc.o  -o matrix_enclosed_regions -lpthread 

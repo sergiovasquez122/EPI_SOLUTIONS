@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/delete_node_from_list.dir/delete_node_from_list.cc.o  -o delete_node_from_list -lpthread 

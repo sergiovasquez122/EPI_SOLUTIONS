@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/search_for_min_max_in_array.dir/search_for_min_max_in_array.cc.o  -o search_for_min_max_in_array -lpthread 

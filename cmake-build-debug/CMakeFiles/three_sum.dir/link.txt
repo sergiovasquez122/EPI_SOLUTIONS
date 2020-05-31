@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/three_sum.dir/three_sum.cc.o  -o three_sum -lpthread 

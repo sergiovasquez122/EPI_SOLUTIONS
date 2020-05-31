@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/roman_to_integer.dir/roman_to_integer.cc.o  -o roman_to_integer -lpthread 

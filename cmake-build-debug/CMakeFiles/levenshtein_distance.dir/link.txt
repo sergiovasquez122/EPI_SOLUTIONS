@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cc.o  -o levenshtein_distance -lpthread 

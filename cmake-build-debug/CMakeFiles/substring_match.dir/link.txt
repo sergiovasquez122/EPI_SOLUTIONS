@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/substring_match.dir/substring_match.cc.o  -o substring_match -lpthread 

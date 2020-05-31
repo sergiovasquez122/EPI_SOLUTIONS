@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/real_square_root.dir/real_square_root.cc.o  -o real_square_root -lpthread 

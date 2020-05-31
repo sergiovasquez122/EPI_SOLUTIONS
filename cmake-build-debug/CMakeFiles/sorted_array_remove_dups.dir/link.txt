@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/sorted_array_remove_dups.dir/sorted_array_remove_dups.cc.o  -o sorted_array_remove_dups -lpthread 

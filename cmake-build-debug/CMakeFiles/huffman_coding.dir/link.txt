@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/huffman_coding.dir/huffman_coding.cc.o  -o huffman_coding -lpthread 

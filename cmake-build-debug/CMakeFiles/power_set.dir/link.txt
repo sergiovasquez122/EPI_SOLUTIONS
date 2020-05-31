@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/power_set.dir/power_set.cc.o  -o power_set -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/snake_string.dir/snake_string.cc.o  -o snake_string -lpthread 

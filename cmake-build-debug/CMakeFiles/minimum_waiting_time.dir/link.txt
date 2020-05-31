@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/minimum_waiting_time.dir/minimum_waiting_time.cc.o  -o minimum_waiting_time -lpthread 

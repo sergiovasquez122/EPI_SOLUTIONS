@@ -1,0 +1,1 @@
+/usr/bin/c++   -Werror -Wno-unused-variable -Wno-sign-compare -g   CMakeFiles/majority_element.dir/majority_element.cc.o  -o majority_element -lpthread 
