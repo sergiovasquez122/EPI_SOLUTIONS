@@ -2,12 +2,13 @@
 #include <memory>
 #include <string>
 #include <vector>
-
+#include <stack>
 #include "test_framework/binary_tree_utils.h"
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 #include "test_framework/test_failure.h"
 using std::unique_ptr;
+using std::stack;
 using test_framework::BinaryTreeSerializationTrait;
 template <typename T>
 struct BinaryTreeNode {
@@ -18,9 +19,22 @@ struct BinaryTreeNode {
 
 const BinaryTreeNode<int>* FindKthNodeBinaryTree(
     const unique_ptr<BinaryTreeNode<int>>& tree, int k) {
-  // TODO - you fill in here.
-  return nullptr;
+  auto root = tree.get();
+  stack<BinaryTreeNode<int>*> elements;
+  elements.push(root);
+  while(root || !elements.empty()){
+      while(root != nullptr){
+        elements.push(root);
+        root = root->left.get();
+      }
+      root = elements.top();
+      elements.pop();
+      if(k-- == 1) break;
+      root = root->right.get();
+  }
+  return root;
 }
+
 namespace test_framework {
 template <typename KeyT>
 struct SerializationTrait<std::unique_ptr<BinaryTreeNode<KeyT>>>
