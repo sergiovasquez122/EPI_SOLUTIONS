@@ -5,12 +5,28 @@
 using std::string;
 
 string IntToString(int x) {
-  // TODO - you fill in here.
-  return "0";
+    string result;
+    bool isNegative = x < 0;
+    do {
+        int val =  abs(x % 10);
+        result += '0' + val;
+        x /= 10;
+    } while(x);
+
+    if(isNegative){
+        result.push_back('-');
+    }
+
+    return {result.rbegin(), result.rend()};
 }
 int StringToInt(const string& s) {
-  // TODO - you fill in here.
-  return 0;
+    int result = 0;
+
+    for(int i = s[0] == '-' || s[0] == '+' ? 1 : 0;i < s.size();++i){
+        result = result * 10 + (s[i] - '0');
+    }
+
+    return s[0] == '-' ?  -result : result;
 }
 void Wrapper(int x, const string& s) {
   if (stoi(IntToString(x)) != x) {
