@@ -8,7 +8,6 @@ using std::vector;
 using std::stack;
 
 vector<int> FindKLargestInBST(const unique_ptr<BstNode<int>>& tree, int k) {
-  // TODO - you fill in here.
   vector<int> result;
   stack<BstNode<int>*> elements;
   auto root = tree.get();
