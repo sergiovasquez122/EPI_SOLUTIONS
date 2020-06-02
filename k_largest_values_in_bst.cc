@@ -19,9 +19,7 @@ vector<int> FindKLargestInBST(const unique_ptr<BstNode<int>>& tree, int k) {
     }
     root = elements.top();
     elements.pop();
-    if(result.size() < k){
-        result.emplace_back(root->data);
-    }
+    result.emplace_back(root->data);
     root = root->left.get();
   }
   return result;
