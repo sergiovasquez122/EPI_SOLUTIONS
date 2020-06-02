@@ -1,14 +1,31 @@
 #include <memory>
 #include <vector>
-
+#include <stack>
 #include "bst_node.h"
 #include "test_framework/generic_test.h"
 using std::unique_ptr;
 using std::vector;
+using std::stack;
 
 vector<int> FindKLargestInBST(const unique_ptr<BstNode<int>>& tree, int k) {
   // TODO - you fill in here.
-  return {};
+  vector<int> result;
+  stack<BstNode<int>*> elements;
+  auto root = tree.get();
+  elements.push(root);
+  while((root || !elements.empty()) && result.size() < k){
+    while(root != nullptr){
+      elements.push(root);
+      root = root->right.get();
+    }
+    root = elements.top();
+    elements.pop();
+    if(result.size() < k){
+        result.emplace_back(root->data);
+    }
+    root = root->left.get();
+  }
+  return result;
 }
 
 int main(int argc, char* argv[]) {
