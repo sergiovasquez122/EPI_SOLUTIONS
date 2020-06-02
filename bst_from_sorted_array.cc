@@ -7,13 +7,21 @@
 #include "test_framework/test_failure.h"
 #include "test_framework/timed_executor.h"
 using std::unique_ptr;
+using std::make_unique;
 using std::vector;
 
-unique_ptr<BstNode<int>> BuildMinHeightBSTFromSortedArray(
-    const vector<int>& A) {
-  // TODO - you fill in here.
-  return nullptr;
+unique_ptr<BstNode<int>> helper(const vector<int>& A, int lower_bound, int upper_bound){
+    if(upper_bound < lower_bound) return nullptr;
+    int mid = lower_bound + (upper_bound - lower_bound) / 2;
+    return make_unique<BstNode<int>>(BstNode<int>{A[mid], helper(A, lower_bound, mid - 1),
+                                                  helper(A, mid + 1, upper_bound)});
 }
+
+unique_ptr<BstNode<int>> BuildMinHeightBSTFromSortedArray(
+        const vector<int>& A) {
+    return helper(A, 0, A.size() - 1);
+}
+
 int BuildMinHeightBSTFromSortedArrayWrapper(TimedExecutor& executor,
                                             const vector<int>& A) {
   auto result =
