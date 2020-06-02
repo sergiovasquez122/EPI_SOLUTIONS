@@ -1,12 +1,26 @@
 #include <memory>
-
+#include <stack>
 #include "binary_tree_node.h"
 #include "test_framework/generic_test.h"
 using std::unique_ptr;
+using std::stack;
 
 bool IsBinaryTreeBST(const unique_ptr<BinaryTreeNode<int>>& tree) {
-  // TODO - you fill in here.
-  return true;
+    auto root = tree.get();
+    BinaryTreeNode<int>* parent = nullptr;
+    stack<BinaryTreeNode<int>*> elements;
+    while(root || !elements.empty()){
+        while(root != nullptr){
+            elements.push(root);
+            root = root->left.get();
+        }
+        root = elements.top();
+        elements.pop();
+        if(parent && parent->data > root->data) return false;
+        parent = root;
+        root = root->right.get();
+    }
+    return true;
 }
 
 int main(int argc, char* argv[]) {
