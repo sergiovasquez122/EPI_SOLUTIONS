@@ -12,9 +12,17 @@ using std::unique_ptr;
 BstNode<int>* FindLca(const unique_ptr<BstNode<int>>& tree,
                       const unique_ptr<BstNode<int>>& s,
                       const unique_ptr<BstNode<int>>& b) {
-  // TODO - you fill in here.
-  return nullptr;
+  auto iter = tree.get();
+  while(iter->data < s.get()->data || iter->data > b.get()->data){
+      if(iter->data < s.get()->data){
+        iter = iter->right.get();
+      } else  if(iter->data > b.get()->data){
+        iter = iter->left.get();
+      }
+  }
+    return iter;
 }
+
 int LcaWrapper(TimedExecutor& executor,
                const std::unique_ptr<BstNode<int>>& tree, int key0, int key1) {
   const unique_ptr<BstNode<int>>& node0 = MustFindNode(tree, key0);
