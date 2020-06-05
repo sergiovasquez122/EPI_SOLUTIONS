@@ -21,7 +21,7 @@ bool IsWellFormed(const string& s) {
       return false;
     }
   }
-  return braces.empty();
+  return left_parens.empty();
 }
 
 int main(int argc, char* argv[]) {
