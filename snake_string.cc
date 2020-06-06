@@ -4,8 +4,7 @@
 using std::string;
 
 string SnakeString(const string& s) {
-  // TODO - you fill in here.
-  return "";
+    return "";
 }
 
 int main(int argc, char* argv[]) {
