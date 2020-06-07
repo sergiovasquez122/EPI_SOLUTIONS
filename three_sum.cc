@@ -1,17 +1,30 @@
 #include <vector>
-
+#include <unordered_set>
 #include "test_framework/generic_test.h"
 using std::vector;
+using std::unordered_set;
+
+bool hasTwoSum(const vector<int> &A, int target){
+    int low_idx = 0, hi_idx = A.size() - 1;
+    while(low_idx <= hi_idx){
+        if(A[low_idx] + A[hi_idx] < target){
+            low_idx++;
+       } else if(A[low_idx] + A[hi_idx] > target){
+            hi_idx--;
+        } else{
+            return true;
+        }
+    }
+    return false;
+}
+
 
 bool HasThreeSum(vector<int> A, int t) {
-    for(int i = 0;i < A.size();++i){
-      for(int j = 0;j < A.size();++j){
-        for(int k = 0;k < A.size();++k){
-            if(A[i] + A[j] + A[k] == t){
-                return true;
-            }
+    sort(A.begin(), A.end());
+    for(int e : A){
+        if(hasTwoSum(A, t - e)){
+            return true;
         }
-      }
     }
     return false;
 }
