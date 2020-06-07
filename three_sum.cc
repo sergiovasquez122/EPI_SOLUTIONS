@@ -4,8 +4,16 @@
 using std::vector;
 
 bool HasThreeSum(vector<int> A, int t) {
-  // TODO - you fill in here.
-  return true;
+    for(int i = 0;i < A.size();++i){
+      for(int j = 0;j < A.size();++j){
+        for(int k = 0;k < A.size();++k){
+            if(A[i] + A[j] + A[k] == t){
+                return true;
+            }
+        }
+      }
+    }
+    return false;
 }
 
 int main(int argc, char* argv[]) {
