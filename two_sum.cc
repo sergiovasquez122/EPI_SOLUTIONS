@@ -2,7 +2,6 @@
 
 #include "test_framework/generic_test.h"
 using std::vector;
-
 bool HasTwoSum(const vector<int>& A, int t) {
   // TODO - you fill in here.
   return true;
