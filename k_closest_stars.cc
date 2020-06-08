@@ -1,11 +1,12 @@
 #include <algorithm>
 #include <cmath>
 #include <vector>
-
+#include <queue>
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 #include "test_framework/test_utils.h"
 using std::vector;
+using std::priority_queue;
 
 struct Star {
   bool operator<(const Star& that) const {
@@ -20,8 +21,19 @@ struct Star {
 vector<Star> FindClosestKStars(vector<Star>::const_iterator stars_begin,
                                const vector<Star>::const_iterator& stars_end,
                                int k) {
-  // TODO - you fill in here.
-  return {};
+    priority_queue<Star> pq;
+    while(stars_begin != stars_end){
+        pq.push(*stars_begin++); 
+        if(pq.size() > k){
+            pq.pop();
+        }
+    }
+    vector<Star> stars;
+    while(!pq.empty()){
+        stars.push_back(pq.top());
+        pq.pop();
+    }
+    return stars;
 }
 
 namespace test_framework {
