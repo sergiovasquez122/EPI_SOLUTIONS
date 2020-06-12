@@ -1,14 +1,26 @@
 #include <memory>
 #include <vector>
-
+#include <stack>
 #include "binary_tree_node.h"
 #include "test_framework/generic_test.h"
 using std::unique_ptr;
 using std::vector;
-
+using std::stack;
 vector<int> InorderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree) {
-  // TODO - you fill in here.
-  return {};
+  stack<const BinaryTreeNode<int>*> on_stack;
+  vector<int> result;
+  const auto* iter = tree.get();
+  while(iter || !on_stack.empty()){
+      while(iter != nullptr){
+        on_stack.push(iter);
+        iter = iter->left.get();
+      }
+      iter = on_stack.top();
+      on_stack.pop();
+      result.push_back(iter->data);
+      iter = iter->right.get();
+  }
+  return result;
 }
 
 int main(int argc, char* argv[]) {
