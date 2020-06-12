@@ -4,9 +4,21 @@
 using std::vector;
 
 void MergeTwoSortedArrays(vector<int>& A, int m, const vector<int>& B, int n) {
-  // TODO - you fill in here.
-  return;
+    int a_idx = m-1, b_idx = n-1;
+    int write_idx = m + n - 1;
+    while(a_idx>=0 && b_idx>=0){
+        A[write_idx--] = A[a_idx] > B[b_idx] ? A[a_idx--] : B[b_idx--];
+    }
+
+    while(a_idx >= 0) {
+        A[write_idx--] = A[a_idx--];
+    }
+
+    while(b_idx >= 0){
+        A[write_idx--] = B[b_idx--];
+    }
 }
+
 vector<int> MergeTwoSortedArraysWrapper(vector<int> A, int m,
                                         const vector<int>& B, int n) {
   MergeTwoSortedArrays(A, m, B, n);
