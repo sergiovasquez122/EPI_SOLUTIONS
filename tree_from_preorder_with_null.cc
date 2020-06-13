@@ -6,11 +6,26 @@
 #include "test_framework/timed_executor.h"
 using std::string;
 using std::vector;
+using std::make_unique;
+
+unique_ptr<BinaryTreeNode<int>> helper(const vector<int*>& preorder, int& idx){
+    if(idx == preorder.size()){
+        return nullptr;
+    }
+
+    int* val = preorder[idx++];
+    if(val == nullptr){
+      return nullptr;
+    }
+
+
+    return make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{*val, helper(preorder, idx), helper(preorder, idx)});
+}
 
 unique_ptr<BinaryTreeNode<int>> ReconstructPreorder(
     const vector<int*>& preorder) {
-  // TODO - you fill in here.
-  return nullptr;
+    int val = 0;
+    return helper(preorder, val);
 }
 unique_ptr<BinaryTreeNode<int>> ReconstructPreorderWrapper(
     TimedExecutor& executor, const vector<string>& preorder) {
