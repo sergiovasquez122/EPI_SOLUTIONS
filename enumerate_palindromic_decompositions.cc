@@ -8,12 +8,7 @@ using std::string;
 using std::vector;
 
 bool isPalindrome(const string& s, int low, int hi){
-    while(low < hi){
-      if(s[low++] != s[hi--]) {
-        return false;
-      }
-    }
-    return true;
+
 }
 
 vector<vector<string>> PalindromeDecompositions(const string& text) {
