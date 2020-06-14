@@ -16,9 +16,25 @@ vector<int> solution_1(const vector<int>& A, const vector<int>& B){
     return result;
 }
 
+vector<int> solution_2(const vector<int>& A, const vector<int>& B){
+    vector<int> result;
+    int a = 0, b = 0;
+    while(a < A.size() && b < B.size()){
+        if((A[a] == B[b]) && (a == 0 || A[a - 1] != A[a])){
+            result.push_back(A[a]);
+            a++, b++;
+        } else if(A[a] < B[b]){
+            a++;
+        } else {
+            b++;
+        }
+    }
+    return result;
+}
+
 vector<int> IntersectTwoSortedArrays(const vector<int>& A,
                                      const vector<int>& B) {
-    return solution_1(A, B);
+    return solution_2(A, B);
 }
 
 int main(int argc, char* argv[]) {
