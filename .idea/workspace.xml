@@ -230,9 +230,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/is_array_dominated.cc" beforeDir="false" afterPath="$PROJECT_DIR$/is_array_dominated.cc" afterDir="false" />
-    </list>
+    <list default="true" id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,40 +279,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cc" value="268" />
+          <entry key="cc" value="269" />
           <entry key="h" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="278" />
+          <entry key="ObjectiveC" value="279" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cc" value="57104" />
+          <entry key="cc" value="58364" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="57104" />
+          <entry key="ObjectiveC" value="58364" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_permutation.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/queue_from_stacks.cc">
           <provider selected="true" editor-type-id="text-editor">
@@ -404,10 +391,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knapsack.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pascal_triangle.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -423,7 +422,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/evaluate_rpn.cc" />
         <option value="$PROJECT_DIR$/bst_from_sorted_array.cc" />
         <option value="$PROJECT_DIR$/kth_node_in_tree.cc" />
         <option value="$PROJECT_DIR$/k_largest_values_in_bst.cc" />
@@ -474,6 +472,7 @@
         <option value="$PROJECT_DIR$/intersect_sorted_arrays.cc" />
         <option value="$PROJECT_DIR$/int_as_array_increment.cc" />
         <option value="$PROJECT_DIR$/is_array_dominated.cc" />
+        <option value="$PROJECT_DIR$/pascal_triangle.cc" />
       </list>
     </option>
   </component>
@@ -526,7 +525,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.intersect_sorted_arrays">
+  <component name="RunManager" selected="Application.pascal_triangle">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1884,18 +1883,18 @@
       <workItem from="1592016873896" duration="1717000" />
       <workItem from="1592068668014" duration="4348000" />
       <workItem from="1592108731023" duration="3304000" />
-      <workItem from="1592157517587" duration="2313000" />
+      <workItem from="1592157517587" duration="4972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76850000" />
+    <option name="totallyTimeSpent" value="79509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.2565737" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.2565737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1907,7 +1906,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.30745342" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18322982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18322982" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919255" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -1962,15 +1961,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search_first_greater_value_in_bst.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search_entry_equal_to_index.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -2395,6 +2385,16 @@
     <entry file="file://$PROJECT_DIR$/knapsack.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pascal_triangle.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>

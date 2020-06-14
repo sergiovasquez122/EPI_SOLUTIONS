@@ -3,32 +3,16 @@
 #include "test_framework/generic_test.h"
 using std::vector;
 
-void generate_row(vector<vector<int>>& rows){
-    vector<int> next_rows = {1};
-    for(int i = 1;i < rows.back().size();++i){
-        next_rows.push_back(rows.back()[i - 1] + rows.back()[i]);
-    }
-    next_rows.push_back(1);
-    rows.push_back(next_rows);
-}
-
 vector<vector<int>> GeneratePascalTriangle(int num_rows) {
-    if(num_rows == 0){
-        return {};
+    vector<vector<int>> result;
+    for(int i = 0;i < num_rows;++i){
+        vector<int> current_row;
+        for(int j = 0;j <= i;++j){
+            current_row.push_back(0 < j && j < i? result.back()[j] + result.back()[j - 1] : 1);
+        }
+        result.push_back(current_row);
     }
-    if(num_rows == 1){
-      return {{1}};
-    }
-
-    if(num_rows == 2){
-        return {{1}, {1,1}};
-    }
-
-    vector<vector<int>> rows = {{1}, {1, 1}};
-    for(int i = 2; i < num_rows;++i){
-        generate_row(rows);
-    }
-    return rows;
+    return result;
 }
 
 int main(int argc, char* argv[]) {
