@@ -5,7 +5,6 @@
 using std::shared_ptr;
 
 shared_ptr<ListNode<int>> RemoveDuplicates(const shared_ptr<ListNode<int>>& L) {
-    return nullptr;
 }
 
 int main(int argc, char* argv[]) {

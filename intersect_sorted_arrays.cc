@@ -1,12 +1,24 @@
 #include <vector>
-
+#include <algorithm>
 #include "test_framework/generic_test.h"
 using std::vector;
+using std::binary_search;
+
+vector<int> solution_1(const vector<int>& A, const vector<int>& B){
+    vector<int> result;
+    for(int i = 0;i < A.size();++i){
+        if(i == 0 || A[i - 1] != A[i]){
+            if(binary_search(B.begin(), B.end(), A[i])){
+                result.push_back(A[i]);
+            }
+        }
+    }
+    return result;
+}
 
 vector<int> IntersectTwoSortedArrays(const vector<int>& A,
                                      const vector<int>& B) {
-  // TODO - you fill in here.
-  return {};
+    return solution_1(A, B);
 }
 
 int main(int argc, char* argv[]) {
