@@ -7,10 +7,20 @@
 using std::string;
 using std::vector;
 
+bool isPalindrome(const string& s, int low, int hi){
+    while(low < hi){
+      if(s[low++] != s[hi--]) {
+        return false;
+      }
+    }
+    return true;
+}
+
 vector<vector<string>> PalindromeDecompositions(const string& text) {
   // TODO - you fill in here.
   return {};
 }
+
 bool Comp(vector<vector<string>> expected, vector<vector<string>> result) {
   std::sort(begin(expected), end(expected));
   std::sort(begin(result), end(result));
