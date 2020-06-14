@@ -15,8 +15,7 @@ class Team {
   }
   // Checks if team0 can be placed in front of team1.
   static bool ValidPlacementExists(const Team& team0, const Team& team1) {
-    // TODO - you fill in here.
-    return true;
+
   }
 
  private:
