@@ -4,7 +4,7 @@
 
 BinaryTreeNode<int>* findMin(const unique_ptr<BinaryTreeNode<int>>& node){
     auto iter = node.get();
-    while(iter->left){
+    while(iter && iter->left){
         iter = iter->left.get();
     }
     return iter;
@@ -15,9 +15,13 @@ BinaryTreeNode<int>* FindSuccessor(
     if(node->right){
         return findMin(node->right);
     }
-
-    auto current = node.get();
-
+    auto iter = node.get();
+    auto parent = iter->parent;
+    while(iter && parent && parent->right.get() == iter){
+        iter = iter->parent;
+        parent = parent->parent;
+    }
+    return parent;
 }
 
 int FindSuccessorWrapper(const unique_ptr<BinaryTreeNode<int>>& tree,
