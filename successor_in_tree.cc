@@ -2,11 +2,24 @@
 #include "test_framework/binary_tree_utils.h"
 #include "test_framework/generic_test.h"
 
+BinaryTreeNode<int>* findMin(const unique_ptr<BinaryTreeNode<int>>& node){
+    auto iter = node.get();
+    while(iter->left){
+        iter = iter->left.get();
+    }
+    return iter;
+}
+
 BinaryTreeNode<int>* FindSuccessor(
     const unique_ptr<BinaryTreeNode<int>>& node) {
-  // TODO - you fill in here.
-  return nullptr;
+    if(node->right){
+        return findMin(node->right);
+    }
+
+    auto current = node.get();
+
 }
+
 int FindSuccessorWrapper(const unique_ptr<BinaryTreeNode<int>>& tree,
                          int node_idx) {
   auto result = FindSuccessor(MustFindNode(tree, node_idx));
