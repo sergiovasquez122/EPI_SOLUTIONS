@@ -4,8 +4,7 @@
 using std::vector;
 
 int MaximumRevenue(const vector<int>& coins) {
-  // TODO - you fill in here.
-  return 0;
+    return 0;
 }
 
 int main(int argc, char* argv[]) {

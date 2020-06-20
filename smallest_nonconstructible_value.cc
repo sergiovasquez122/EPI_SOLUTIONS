@@ -4,8 +4,15 @@
 using std::vector;
 
 int SmallestNonconstructibleValue(vector<int> A) {
-  // TODO - you fill in here.
-  return 0;
+    sort(A.begin(), A.end());
+    int max_constructible = 0;
+    for(int a : A){
+        if(max_constructible + 1 < a){
+            break;
+        }
+        max_constructible += a;
+    }
+    return max_constructible + 1;
 }
 
 int main(int argc, char* argv[]) {
