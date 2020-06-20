@@ -6,6 +6,7 @@
 #include "test_framework/test_failure.h"
 #include "test_framework/timed_executor.h"
 using std::vector;
+using std::sort;
 
 class Team {
  public:
@@ -15,7 +16,16 @@ class Team {
   }
   // Checks if team0 can be placed in front of team1.
   static bool ValidPlacementExists(const Team& team0, const Team& team1) {
+    auto p1 = team0.players_, p2 = team1.players_;
+    sort(p1.begin(), p1.end());
+    sort(p2.begin(), p2.end());
 
+    for(int i = 0;i < p1.size();++i){
+      if(p2[i].height <= p1[i].height){
+        return false;
+      }
+    }
+    return true;
   }
 
  private:
