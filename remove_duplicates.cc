@@ -2,23 +2,29 @@
 #include <iterator>
 #include <string>
 #include <vector>
-
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 using std::string;
 using std::vector;
-
+using std::sort;
+using std::unique;
 struct Name {
   bool operator<(const Name& that) const {
     return first_name != that.first_name ? first_name < that.first_name
                                          : last_name < that.last_name;
   }
 
+  bool operator==(const Name& that) const
+  {
+      return first_name == that.first_name;
+  }
   string first_name, last_name;
 };
+
 void EliminateDuplicate(vector<Name>* names) {
-  // TODO - you fill in here.
-  return;
+    vector<Name>& e = *names;
+    sort(e.begin(), e.end());
+    e.erase(unique(e.begin(), e.end()), e.end());
 }
 
 namespace test_framework {
