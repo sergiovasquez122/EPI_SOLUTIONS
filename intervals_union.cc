@@ -11,6 +11,13 @@ struct Interval {
     int val;
   };
 
+  bool operator <(const Interval& rhs) const {
+    if(left.val != rhs.left.val){
+        return left.val < rhs.left.val;
+    }
+    return left.is_closed && !rhs.left.is_closed;
+  }
+
   Endpoint left, right;
 };
 
