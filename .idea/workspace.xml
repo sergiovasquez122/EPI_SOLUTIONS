@@ -282,40 +282,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cc" value="483" />
+          <entry key="cc" value="484" />
           <entry key="h" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="493" />
+          <entry key="ObjectiveC" value="494" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cc" value="83897" />
+          <entry key="cc" value="84496" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="83897" />
+          <entry key="ObjectiveC" value="84496" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string_transformability.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string_integer_interconversion.cc">
           <provider selected="true" editor-type-id="text-editor">
@@ -393,10 +382,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorted_array_remove_dups.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advance_by_offsets.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -423,7 +424,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tree_level_order.cc" />
         <option value="$PROJECT_DIR$/tree_connect_leaves.cc" />
         <option value="$PROJECT_DIR$/is_string_permutable_to_palindrome.cc" />
         <option value="$PROJECT_DIR$/two_sum.cc" />
@@ -474,6 +474,7 @@
         <option value="$PROJECT_DIR$/calendar_rendering.cc" />
         <option value="$PROJECT_DIR$/int_as_array_increment.cc" />
         <option value="$PROJECT_DIR$/int_as_array_multiply.cc" />
+        <option value="$PROJECT_DIR$/advance_by_offsets.cc" />
       </list>
     </option>
   </component>
@@ -526,7 +527,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.int_as_array_multiply">
+  <component name="RunManager" selected="Application.advance_by_offsets">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1892,12 +1893,12 @@
       <workItem from="1592589251756" duration="2205000" />
       <workItem from="1592598682480" duration="2776000" />
       <workItem from="1592686535422" duration="9312000" />
-      <workItem from="1592762395469" duration="2480000" />
+      <workItem from="1592762395469" duration="3347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109721000" />
+    <option name="totallyTimeSpent" value="110588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1910,9 +1911,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.22868526" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.22868526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1924,7 +1924,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.30745342" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26242235" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26242235" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919255" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -1979,9 +1979,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search_in_bst.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/search_maze.cc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2386,6 +2383,16 @@
     <entry file="file://$PROJECT_DIR$/sorted_array_remove_dups.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advance_by_offsets.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
