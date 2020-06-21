@@ -230,7 +230,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="" />
+    <list default="true" id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/interval_add.cc" beforeDir="false" afterPath="$PROJECT_DIR$/interval_add.cc" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -282,29 +284,42 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cc" value="442" />
+          <entry key="cc" value="444" />
           <entry key="h" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="452" />
+          <entry key="ObjectiveC" value="454" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cc" value="75594" />
+          <entry key="cc" value="77607" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="75594" />
+          <entry key="ObjectiveC" value="77607" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intervals_union.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#1315#1317#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/is_anonymous_letter_constructible.cc">
           <provider selected="true" editor-type-id="text-editor">
@@ -328,7 +343,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/remove_duplicates.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -336,17 +351,6 @@
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#573#575#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search_maze.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -386,6 +390,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interval_add.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lowest_common_ancestor.cc">
           <provider selected="true" editor-type-id="text-editor">
@@ -409,17 +425,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search_in_bst.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -428,8 +433,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lowest_common_ancestor_in_bst.cc" />
-        <option value="$PROJECT_DIR$/lowest_common_ancestor_with_parent.cc" />
         <option value="$PROJECT_DIR$/snake_string.cc" />
         <option value="$PROJECT_DIR$/search_in_bst.cc" />
         <option value="$PROJECT_DIR$/tree_level_order.cc" />
@@ -479,6 +482,8 @@
         <option value="$PROJECT_DIR$/smallest_nonconstructible_value.cc" />
         <option value="$PROJECT_DIR$/is_array_dominated.cc" />
         <option value="$PROJECT_DIR$/remove_duplicates.cc" />
+        <option value="$PROJECT_DIR$/intervals_union.cc" />
+        <option value="$PROJECT_DIR$/interval_add.cc" />
       </list>
     </option>
   </component>
@@ -531,7 +536,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.remove_duplicates">
+  <component name="RunManager" selected="Application.intervals_union">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1896,12 +1901,12 @@
       <workItem from="1592510859373" duration="8885000" />
       <workItem from="1592589251756" duration="2205000" />
       <workItem from="1592598682480" duration="2776000" />
-      <workItem from="1592686535422" duration="3662000" />
+      <workItem from="1592686535422" duration="6157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101591000" />
+    <option name="totallyTimeSpent" value="104086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1914,8 +1919,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.22310758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.22310758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1927,7 +1933,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.30745342" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26397514" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26397514" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919255" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -1982,16 +1988,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/intervals_union.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#1315#1317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/is_list_cyclic.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2032,15 +2028,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/is_string_palindromic.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interval_add.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -2427,6 +2414,27 @@
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#573#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intervals_union.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#1315#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interval_add.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -11,8 +11,23 @@ struct Interval {
 
 vector<Interval> AddInterval(const vector<Interval>& disjoint_intervals,
                              Interval new_interval) {
-  // TODO - you fill in here.
-  return {};
+    vector<Interval> result;
+    int i = 0;
+    while(i < disjoint_intervals.size() && disjoint_intervals[i].right < new_interval.left){
+        result.push_back(disjoint_intervals[i++]);
+    }
+
+    while(i < disjoint_intervals.size() && new_interval.right >= disjoint_intervals[i].left){
+        new_interval.left = std::min(disjoint_intervals[i].left, new_interval.left);
+        new_interval.right = std::max(disjoint_intervals[i].right, new_interval.right);
+        ++i;
+    }
+
+    result.push_back(new_interval);
+    for(;i < disjoint_intervals.size();++i){
+        result.push_back(disjoint_intervals[i]);
+    }
+    return result;
 }
 namespace test_framework {
 template <>
