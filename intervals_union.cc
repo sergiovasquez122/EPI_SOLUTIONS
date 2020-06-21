@@ -1,9 +1,10 @@
 #include <vector>
-
+#include <algorithm>
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 #include "test_framework/timed_executor.h"
 using std::vector;
+using std::sort;
 
 struct Interval {
   struct Endpoint {
@@ -22,8 +23,19 @@ struct Interval {
 };
 
 vector<Interval> UnionOfIntervals(vector<Interval> intervals) {
-  // TODO - you fill in here.
-  return {};
+    sort(intervals.begin(), intervals.end());
+    vector<Interval> result;
+    for(auto& i : intervals){
+        if(!result.empty() && ((result.back().right.val > i.left.val) ||
+                (result.back().right.val == i.left.val && (result.back().right.is_closed || i.left.is_closed)))){
+            if((result.back().right.val < i.right.val) || (result.back().right.val == i.right.val && i.right.is_closed)){
+                result.back().right = i.right;
+            }
+        } else {
+            result.push_back(i);
+        }
+    }
+    return result;
 }
 struct FlatInterval {
   int left_val;
