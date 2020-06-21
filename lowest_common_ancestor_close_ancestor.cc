@@ -1,17 +1,35 @@
 #include <memory>
-
+#include <unordered_set>
 #include "binary_tree_with_parent_prototype.h"
 #include "test_framework/binary_tree_utils.h"
 #include "test_framework/generic_test.h"
 #include "test_framework/test_failure.h"
 #include "test_framework/timed_executor.h"
 using std::unique_ptr;
+using std::unordered_set;
 
 BinaryTreeNode<int>* Lca(const unique_ptr<BinaryTreeNode<int>>& node0,
                          const unique_ptr<BinaryTreeNode<int>>& node1) {
-  // TODO - you fill in here.
-  return nullptr;
+    unordered_set<BinaryTreeNode<int>*> hash_map;
+    auto iter0 = node0.get(), iter1 = node1.get();
+    while(iter0 || iter1){
+        if(iter0){
+            if(!hash_map.insert(iter0).second){
+                return iter0;
+            }
+            iter0 = iter0->parent;
+        }
+
+        if(iter1){
+            if(!hash_map.insert(iter1).second){
+                return iter1;
+            }
+            iter1 = iter1->parent;
+        }
+    }
+    return nullptr;
 }
+
 int LcaWrapper(TimedExecutor& executor,
                const unique_ptr<BinaryTreeNode<int>>& tree, int key0,
                int key1) {
