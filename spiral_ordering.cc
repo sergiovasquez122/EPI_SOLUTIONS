@@ -12,27 +12,24 @@ vector<int> MatrixInSpiralOrder(const vector<vector<int>>& square_matrix) {
             for(int i = L;i <= R;++i){
                 result.push_back(square_matrix[U][i]);
             }
-            ++dir;
+             U++;
         } else if(dir == 1){
-            for(int i = U + 1; i <= B;++i){
+            for(int i = U;i <= B;++i){
                 result.push_back(square_matrix[i][R]);
             }
-            ++dir;
+            R--;
         } else if(dir == 2){
-            for(int i = R - 1;i >= L;--i){
+            for(int i = R;i >= L;--i){
                 result.push_back(square_matrix[B][i]);
             }
-            ++dir;
+            B--;
         } else {
-            ++U;
-            for(int i = B - 1;i>=U;--i){
+            for(int i = B; i>= U;--i){
                 result.push_back(square_matrix[i][L]);
             }
-            dir = 0;
-            --R;
-            ++L;
-            --B;
+            L++;
         }
+        dir = (dir + 1) % 4;
     }
     return result;
 }
