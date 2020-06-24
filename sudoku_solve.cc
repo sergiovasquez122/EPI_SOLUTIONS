@@ -9,10 +9,63 @@
 using std::begin;
 using std::end;
 using std::vector;
-bool SolveSudoku(vector<vector<int>>* partial_assignment) {
-  // TODO - you fill in here.
-  return true;
+using std::deque;
+
+bool validPlacement(const vector<vector<int>>& A, int i, int j, int value){
+    for(int row = 0;row < A.size();++row){
+        if(A[row][j] == value){
+            return false;
+        }
+    }
+
+    for(int col = 0;col < A.size();++col){
+        if(A[i][col] == value){
+            return false;
+        }
+    }
+
+    int region_size = sqrt(A.size());
+    int ith = i / region_size;
+    int jth = j / region_size;
+    for(int k = 0;k < region_size;++k){
+        for(int p = 0;p < region_size;++p){
+            if(value == A[region_size * ith + k][region_size * jth + p]){
+                return false;
+            }
+        }
+    }
+    return true;
 }
+
+bool helper(vector<vector<int>>& A, int i, int j){
+    if(j == A.size()){
+        j = 0;
+        if(++i == A.size()){
+            return true;
+        }
+    }
+
+    if(A[i][j] != 0){
+        return helper(A, i, j + 1);
+    }
+
+    for(int value = 1; value <= 9;++value){
+        if(validPlacement(A, i, j, value)){
+            A[i][j] = value;
+            if(helper(A, i, j + 1)){
+                return true;
+            }
+        }
+    }
+    A[i][j] = 0;
+    return false;
+}
+
+bool SolveSudoku(vector<vector<int>>* partial_assignment) {
+    vector<vector<int>>& sudoku = *partial_assignment;
+    return helper(sudoku, 0, 0);
+}
+
 vector<int> GatherColumn(const vector<vector<int>>& data, size_t i) {
   vector<int> result;
   for (auto& row : data) {
