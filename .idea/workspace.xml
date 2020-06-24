@@ -231,8 +231,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudoku_solve.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sudoku_solve.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanoi.cc" beforeDir="false" afterPath="$PROJECT_DIR$/hanoi.cc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -288,40 +287,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cc" value="521" />
+          <entry key="cc" value="522" />
           <entry key="h" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="531" />
+          <entry key="ObjectiveC" value="532" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cc" value="107885" />
+          <entry key="cc" value="109705" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="107885" />
+          <entry key="ObjectiveC" value="109705" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrix_rotation.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matrix_enclosed_regions.cc">
           <provider selected="true" editor-type-id="text-editor">
@@ -407,13 +395,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sudoku_solve.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+            <state relative-caret-position="210">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hanoi.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -427,7 +427,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/k_closest_stars.cc" />
         <option value="$PROJECT_DIR$/search_shifted_sorted_array.cc" />
         <option value="$PROJECT_DIR$/string_decompositions_into_dictionary_words.cc" />
         <option value="$PROJECT_DIR$/string_transformability.cc" />
@@ -478,6 +477,7 @@
         <option value="$PROJECT_DIR$/spiral_ordering.cc" />
         <option value="$PROJECT_DIR$/is_valid_sudoku.cc" />
         <option value="$PROJECT_DIR$/sudoku_solve.cc" />
+        <option value="$PROJECT_DIR$/hanoi.cc" />
       </list>
     </option>
   </component>
@@ -530,7 +530,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.sudoku_solve">
+  <component name="RunManager" selected="Application.hanoi">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1901,12 +1901,12 @@
       <workItem from="1592867397797" duration="163000" />
       <workItem from="1592935238470" duration="4746000" />
       <workItem from="1593023747073" duration="1006000" />
-      <workItem from="1593026631451" duration="4171000" />
+      <workItem from="1593026631451" duration="6950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128930000" />
+    <option name="totallyTimeSpent" value="131709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1933,7 +1933,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.30745342" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.25851393" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.25776398" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919255" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -1993,9 +1993,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string_decompositions_into_dictionary_words.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/stack_with_max.cc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2234,10 +2231,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sudoku_solve.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="210">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hanoi.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
