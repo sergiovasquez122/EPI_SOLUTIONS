@@ -1,12 +1,13 @@
 #include <istream>
 #include <string>
 #include <vector>
-
+#include <array>
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 #include "test_framework/test_failure.h"
 #include "test_framework/timed_executor.h"
 using std::vector;
+using std::array;
 enum class Color { kWhite, kBlack };
 struct Coordinate {
   bool operator==(const Coordinate& that) const {
@@ -15,10 +16,38 @@ struct Coordinate {
 
   int x, y;
 };
+
+
+bool valid_placement(vector<vector<Color>>& maze, const Coordinate& s){
+    return s.x >= 0 && maze.size() > s.x && s.y >= 0 && s.y < maze[0].size() && maze[s.x][s.y] == Color ::kWhite;
+}
+
+bool dfs(vector<vector<Color>>& maze, vector<Coordinate>& result, const Coordinate& u, const Coordinate& e){
+    maze[u.x][u.y] = Color::kBlack;
+    result.push_back(u);
+    if(u == e){
+        return true;
+    }
+
+    const vector<vector<int>> moves = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    for(auto& move : moves){
+        Coordinate newCoordinate{u.x + move[0], u.y + move[1]};
+        if(valid_placement(maze, newCoordinate) && dfs(maze, result, newCoordinate, e)){
+            return true;
+        }
+    }
+
+    result.pop_back();
+    return false;
+}
+
 vector<Coordinate> SearchMaze(vector<vector<Color>> maze, const Coordinate& s,
                               const Coordinate& e) {
-  // TODO - you fill in here.
-  return {};
+    vector<Coordinate> result;
+    if(dfs(maze, result, s, e)){
+        return result;
+    }
+    return {};
 }
 
 namespace test_framework {
