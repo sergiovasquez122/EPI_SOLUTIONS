@@ -7,13 +7,7 @@
 using std::string;
 using std::vector;
 
-bool isPalindrome(const string& s, int low, int hi){
-
-}
-
 vector<vector<string>> PalindromeDecompositions(const string& text) {
-  // TODO - you fill in here.
-  return {};
 }
 
 bool Comp(vector<vector<string>> expected, vector<vector<string>> result) {
