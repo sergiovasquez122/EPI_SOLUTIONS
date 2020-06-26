@@ -7,10 +7,51 @@
 using std::string;
 using std::vector;
 
-void FillSurroundedRegions(vector<vector<char>>* board_ptr) {
-  // TODO - you fill in here.
-  return;
+bool feasible(vector<vector<char>>& board, int x, int y, char ch){
+    return x >= 0 && x < board.size() && y >= 0 && y < board[x].size() && board[x][y] == ch;
 }
+
+void dfs(vector<vector<char>>& board, int x, int y, char old_color, char new_color){
+    if(!feasible(board, x, y, old_color)){
+        return;
+    }
+
+    board[x][y] = new_color;
+    const vector<vector<int>> shifts = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    for(auto& shift : shifts){
+        dfs(board, x + shift[0], y + shift[1], old_color, new_color);
+    }
+}
+
+void FillSurroundedRegions(vector<vector<char>>* board_ptr) {
+    vector<vector<char>>& board = *board_ptr;
+    if(board.empty()){
+        return;
+    }
+    for(int i = 0;i < board.size();++i){
+        if(board[i][0] == 'W'){
+            dfs(board, i, 0, 'W', 'S');
+        }
+        if(board[i][board[i].size() - 1] == 'W'){
+            dfs(board, i,  board[i].size() - 1, 'W', 'S');
+        }
+    }
+
+    for(int j = 0;j < board.front().size();++j){
+        if(board[0][j] == 'W'){
+            dfs(board, 0, j, 'W','S');
+        } if(board[board.size() - 1][j] == 'W'){
+            dfs(board, board.size() - 1, j, 'W','S');
+        }
+    }
+
+    for(int i = 0;i < board.size();++i){
+        for(int j = 0;j < board.front().size();++j){
+            board[i][j] = (board[i][j] != 'S' ? 'B' : 'W');
+        }
+    }
+}
+
 vector<vector<string>> FillSurroundedRegionsWrapper(
     TimedExecutor& executor, vector<vector<string>> board) {
   vector<vector<char>> char_vector;
