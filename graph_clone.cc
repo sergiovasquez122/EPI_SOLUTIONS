@@ -31,8 +31,7 @@ GraphVertex* CloneGraph(GraphVertex* graph) {
         return nullptr;
     }
     unordered_map<GraphVertex*, GraphVertex*> mapping;
-    dfs(mapping, graph);
-    return mapping[graph];
+    return dfs(mapping, graph);
 }
 
 vector<int> CopyLabels(const vector<GraphVertex*>& edges) {
