@@ -8,12 +8,35 @@ using std::vector;
 
 struct GraphVertex {
   vector<GraphVertex*> edges;
+  enum Color {white, gray, black} color = white;
 };
 
-bool IsDeadlocked(vector<GraphVertex>* graph) {
-  // TODO - you fill in here.
-  return true;
+
+bool hasCycle(GraphVertex* graph){
+    if(graph->color == GraphVertex::gray){
+        return true;
+    }
+    graph->color = GraphVertex::gray;
+    for(auto& v : graph->edges){
+        if(v->color != GraphVertex::black && hasCycle(v)){
+            return true;
+        }
+    }
+    graph->color = GraphVertex::black;
+    return false;
 }
+
+bool IsDeadlocked(vector<GraphVertex>* graph) {
+    for(auto& g : *graph){
+        for(auto& v : g.edges){
+            if(hasCycle(v)){
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 struct Edge {
   int from;
   int to;
