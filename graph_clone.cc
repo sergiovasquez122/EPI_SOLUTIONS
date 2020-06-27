@@ -2,23 +2,39 @@
 #include <queue>
 #include <unordered_set>
 #include <vector>
-
+#include <unordered_map>
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 #include "test_framework/test_failure.h"
 using std::queue;
 using std::unordered_set;
 using std::vector;
-
+using std::unordered_map;
 struct GraphVertex {
   int label;
   vector<GraphVertex*> edges;
 };
 
-GraphVertex* CloneGraph(GraphVertex* graph) {
-  // TODO - you fill in here.
-  return new GraphVertex{0};
+GraphVertex* dfs(unordered_map<GraphVertex*, GraphVertex*>& mapping, GraphVertex* graph){
+  if(mapping.count(graph)){
+      return mapping[graph];
+  }
+  mapping[graph] = new GraphVertex{graph->label};
+  for(auto& v : graph->edges){
+      mapping[graph]->edges.push_back(dfs(mapping, v));
+  }
+  return mapping[graph];
 }
+
+GraphVertex* CloneGraph(GraphVertex* graph) {
+    if(!graph){
+        return nullptr;
+    }
+    unordered_map<GraphVertex*, GraphVertex*> mapping;
+    dfs(mapping, graph);
+    return mapping[graph];
+}
+
 vector<int> CopyLabels(const vector<GraphVertex*>& edges) {
   vector<int> labels;
   transform(begin(edges), end(edges), back_inserter(labels),
