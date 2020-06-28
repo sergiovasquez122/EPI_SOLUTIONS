@@ -1,13 +1,23 @@
 #include <string>
 #include <vector>
-
+#include <unordered_map>
+#include <numeric>
 #include "test_framework/generic_test.h"
 using std::string;
 using std::vector;
+using std::unordered_map;
 
 int FindNearestRepetition(const vector<string>& paragraph) {
-  // TODO - you fill in here.
-  return 0;
+    unordered_map<string, int> entries;
+    int result = std::numeric_limits<int>::max();
+    for(int i = 0;i < paragraph.size();++i){
+        auto it = entries.find(paragraph[i]);
+        if(it != entries.end()){
+            result = std::min(result, i - it->second);
+        }
+        entries[paragraph[i]] = i;
+    }
+    return result == std::numeric_limits<int>::max() ? -1 : result;
 }
 
 int main(int argc, char* argv[]) {
