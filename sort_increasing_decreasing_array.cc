@@ -9,9 +9,9 @@ struct Iterator{
     bool operator>(const Iterator& rhs) const {
         return *left > *rhs.left;
     }
-
     vector<int>::const_iterator left, right;
 };
+
 vector<int> merge(const vector<vector<int>>& A){
     priority_queue<Iterator, vector<Iterator>, std::greater<>> pq;
     for(const auto& v : A)
@@ -19,7 +19,12 @@ vector<int> merge(const vector<vector<int>>& A){
 
     vector<int> result;
     while(!pq.empty()){
-
+        auto current = pq.top();
+        pq.pop();
+        result.push_back(*current.left);
+        if(std::next(current.left) != current.right){
+            pq.push(Iterator{std::next(current.left), current.right});
+        }
     }
     return result;
 }
@@ -40,6 +45,7 @@ vector<int> SortKIncreasingDecreasingArray(const vector<int>& A) {
             increasing = !increasing;
         }
     }
+    return merge(partitions);
 }
 
 int main(int argc, char* argv[]) {
