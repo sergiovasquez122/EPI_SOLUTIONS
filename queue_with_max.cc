@@ -1,25 +1,60 @@
 #include <stdexcept>
-
+#include <queue>
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 #include "test_framework/test_failure.h"
+
+using std::stack;
+
 using std::length_error;
+class Stack {
+public:
+    bool Empty() const {
+      return _stack.empty();
+    }
+    int Max() const {
+      return _stack.top().max_data;
+    }
+
+    int Pop() {
+      int x = _stack.top().data;
+      _stack.pop();
+      return x;
+    }
+    void Push(int x) {
+      _stack.push({x, _stack.empty()? x : std::max(x, _stack.top().max_data)});
+    }
+private:
+    struct elem{
+        int data, max_data;
+    };
+    stack<elem> _stack;
+};
 
 class QueueWithMax {
  public:
   void Enqueue(int x) {
-    // TODO - you fill in here.
-    return;
+      _enqueue.Push(x);
   }
   int Dequeue() {
-    // TODO - you fill in here.
-    return 0;
+      if(_dequeue.Empty()){
+          while(!_enqueue.Empty()){
+              _dequeue.Push(_enqueue.Pop());
+          }
+      }
+      int x = _dequeue.Pop();
+      return x;
   }
   int Max() const {
-    // TODO - you fill in here.
-    return 0;
+      int x = _dequeue.Empty() ? std::numeric_limits<int>::min() : _dequeue.Max();
+      int y = _enqueue.Empty() ? std::numeric_limits<int>::min() : _enqueue.Max();
+      return std::max(x, y);
   }
+
+private:
+    Stack _enqueue, _dequeue;
 };
+
 struct QueueOp {
   enum class Operation { kConstruct, kDequeue, kEnqueue, kMax } op;
   int argument;

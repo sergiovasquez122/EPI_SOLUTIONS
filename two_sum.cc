@@ -5,10 +5,7 @@ using std::vector;
 using std::unordered_set;
 
 bool HasTwoSum(const vector<int>& A, int t) {
-  unordered_set<int> elements;
-  for(int x : A){
-    elements.insert(x);
-  }
+  unordered_set<int> elements(A.begin(), A.end());
   
   for(int y : A){
     if(elements.count(t - y)){
