@@ -4,8 +4,19 @@
 using std::vector;
 
 int GetMaxTrappedWater(const vector<int>& heights) {
-  // TODO - you fill in here.
-  return 0;
+  int left_idx = 0;
+  int right_idx = heights.size() - 1;
+  int result = std::numeric_limits<int>::min();
+  while(left_idx < right_idx){
+    int area = std::min(heights[left_idx], heights[right_idx]) * (right_idx - left_idx);
+    result = std::max(result, area);
+    if(heights[left_idx] < heights[right_idx]){
+      left_idx++;
+    } else {
+      right_idx--;
+    }
+  }
+  return result;
 }
 
 int main(int argc, char* argv[]) {
