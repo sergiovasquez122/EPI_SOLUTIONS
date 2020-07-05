@@ -9,8 +9,15 @@ struct Interval {
 };
 
 int FindMinimumVisits(vector<Interval> intervals) {
-  // TODO - you fill in here.
-  return 0;
+    sort(intervals.begin(), intervals.end());
+    int counter = 0, right = std::numeric_limits<int>::min();
+    for(auto& I : intervals){
+        if(right < I.left){
+            counter++;
+            right = I.right;
+        }
+    }
+    return counter;
 }
 namespace test_framework {
 template <>
