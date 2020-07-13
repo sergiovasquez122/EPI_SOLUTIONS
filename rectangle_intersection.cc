@@ -9,7 +9,14 @@ struct Rect {
 
 Rect IntersectRectangle(const Rect& r1, const Rect& r2) {
   // TODO - you fill in here.
-  return {0, 0, 0, 0};
+  int start_x = std::max(r1.x, r2.x);
+  int end_x = std::min(r1.x + r1.width, r2.x + r2.width);
+  int start_y = std::max(r1.y, r2.y);
+  int end_y = std::min(r1.y + r1.height, r2.y + r2.height);
+  if(start_x > end_x || start_y > end_y){
+    return {0, 0, -1, -1};
+  }
+  return {start_x, start_y, end_x - start_x, end_y - start_y};
 }
 bool operator==(const Rect& r1, const Rect& r2) {
   return std::tie(r1.x, r1.y, r1.width, r1.height) ==
