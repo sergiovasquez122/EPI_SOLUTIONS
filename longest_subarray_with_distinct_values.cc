@@ -5,7 +5,20 @@ using std::vector;
 using std::unordered_map;
 
 int LongestSubarrayWithDistinctEntries(const vector<int>& A) {
-    return 0;
+    unordered_map<int ,int> dup_idx;
+    size_t sub_array_idx = 0, result = 0;
+    for(int i = 0;i < A.size();++i){
+        auto it = dup_idx.emplace(A[i], i);
+        if(!it.second){
+            if(it.first->second >= sub_array_idx){
+                result = std::max(result, i - sub_array_idx);
+                sub_array_idx = it.first->second + 1;
+            }
+            it.first->second = i;
+        }
+    }
+    result = std::max(result, A.size() - sub_array_idx);
+    return result;
 }
 
 int main(int argc, char* argv[]) {
