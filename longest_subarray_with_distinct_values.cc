@@ -1,11 +1,11 @@
 #include <vector>
-
+#include <unordered_map>
 #include "test_framework/generic_test.h"
 using std::vector;
+using std::unordered_map;
 
 int LongestSubarrayWithDistinctEntries(const vector<int>& A) {
-  // TODO - you fill in here.
-  return 0;
+    return 0;
 }
 
 int main(int argc, char* argv[]) {
