@@ -1,13 +1,14 @@
 #include <string>
 #include <unordered_set>
 #include <vector>
-
+#include <unordered_map>
 #include "test_framework/generic_test.h"
 #include "test_framework/test_failure.h"
 #include "test_framework/timed_executor.h"
 using std::string;
 using std::unordered_set;
 using std::vector;
+using std::unordered_map;
 
 struct Subarray {
   int start, end;
@@ -15,9 +16,38 @@ struct Subarray {
 
 Subarray FindSmallestSubarrayCoveringSet(
     const vector<string> &paragraph, const unordered_set<string> &keywords) {
-  // TODO - you fill in here.
-  return {0, 0};
+  Subarray result {-1, -1};
+  unordered_map<string, int> freq_count;
+  for(const auto& k : keywords){
+    ++freq_count[k];
+  }
+  int window_start = 0;
+  int matches = 0;
+  int minimum_length = std::numeric_limits<int>::max();
+  for(int window_end = 0;window_end < paragraph.size();++window_end){
+    if(freq_count.count(paragraph[window_end])){
+      --freq_count[paragraph[window_end]];
+      if(freq_count[paragraph[window_end]] == 0){
+        matches++;
+      }
+    }
+    while(matches == keywords.size()){
+      if(window_end - window_start + 1 < minimum_length){
+        result = {window_start, window_end};
+        minimum_length = window_end - window_start + 1;
+      }
+      if(freq_count.count(paragraph[window_start])){
+        if(freq_count[paragraph[window_start]] == 0){
+            matches--;
+        }
+        freq_count[paragraph[window_start]]++;
+      }
+      window_start++;
+    }
+  }
+  return result;
 }
+
 int FindSmallestSubarrayCoveringSetWrapper(
     TimedExecutor &executor, const vector<string> &paragraph,
     const unordered_set<string> &keywords) {
