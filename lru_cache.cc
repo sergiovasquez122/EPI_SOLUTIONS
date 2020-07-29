@@ -16,6 +16,11 @@ class LruCache {
         return -1;
       }
 
+      cache.erase(it->second.first);
+      cache.emplace_front(it->second.second);
+      it->second.first = cache.begin();
+      table.insert({isbn, it->second});
+      return it->second.second;
   }
   void Insert(int isbn, int price) {
     // TODO - you fill in here.
