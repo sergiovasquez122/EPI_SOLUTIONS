@@ -1,12 +1,14 @@
-#include <vector>
-
+#include <unordered_map>
+#include <list>
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 #include "test_framework/test_failure.h"
+using std::unordered_map;
+using std::list;
 
 class LruCache {
  public:
-  LruCache(size_t capacity) {}
+  LruCache(size_t capacity) : size(capacity){}
   int Lookup(int isbn) {
     // TODO - you fill in here.
     return 0;
@@ -19,7 +21,11 @@ class LruCache {
     // TODO - you fill in here.
     return true;
   }
+private:
+    list<int> cache;
+    size_t size;
 };
+
 struct Op {
   std::string code;
   int arg1;
