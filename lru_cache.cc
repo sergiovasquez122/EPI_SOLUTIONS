@@ -15,9 +15,13 @@ class LruCache {
     if(it == table.end()){
         return -1;
     }
-
+    cache.erase(it->second.first);
+    cache.emplace_front(isbn);
+    it->second.first = cache.begin();
+    return it->second.second;
   }
   void Insert(int isbn, int price) {
+
   }
   bool Erase(int isbn) {
       auto it = table.find(isbn);
