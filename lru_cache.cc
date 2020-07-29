@@ -9,30 +9,29 @@ using std::pair;
 
 class LruCache {
  public:
-  LruCache(size_t capacity){
-      size = capacity;
-  }
+  explicit LruCache(int capacity) : size(capacity) {}
   int Lookup(int isbn) {
     auto it = table.find(isbn);
     if(it == table.end()){
         return -1;
     }
+    int price = it->second.second;
     cache.erase(it->second.first);
     cache.emplace_front(isbn);
-    table[isbn] = {cache.begin(), it->second.second};
-    return it->second.second;
+    table[isbn] = {cache.begin(), price};
+    return price;
   }
   void Insert(int isbn, int price) {
       auto it = table.find(isbn);
       if(it != table.end()){
           cache.erase(it->second.first);
           cache.emplace_front(isbn);
-          table[isbn] = {cache.begin(), price};
+          table[isbn] = {cache.begin(), it->second.second};
       } else {
-          if(size == cache.size()){
+          if(size == table.size()){
               int val = cache.back();
-              cache.pop_back();
               table.erase(val);
+              cache.pop_back();
           }
           cache.emplace_front(isbn);
           table[isbn] = {cache.begin(), price};
@@ -51,7 +50,7 @@ class LruCache {
 private:
     unordered_map<int, pair<list<int>::iterator, int>> table;
     list<int> cache;
-    size_t size;
+    int size;
 };
 
 struct Op {
