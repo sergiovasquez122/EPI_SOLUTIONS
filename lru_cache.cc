@@ -9,7 +9,9 @@ using std::pair;
 
 class LruCache {
  public:
-  LruCache(size_t capacity) : size(capacity){}
+  LruCache(size_t capacity){
+      size = capacity;
+  }
   int Lookup(int isbn) {
     auto it = table.find(isbn);
     if(it == table.end()){
@@ -17,7 +19,7 @@ class LruCache {
     }
     cache.erase(it->second.first);
     cache.emplace_front(isbn);
-    it->second.first = cache.begin();
+    table[isbn] = {cache.begin(), it->second.second};
     return it->second.second;
   }
   void Insert(int isbn, int price) {
@@ -25,12 +27,18 @@ class LruCache {
       if(it != table.end()){
           cache.erase(it->second.first);
           cache.emplace_front(isbn);
-          it->second.second = price;
-          table.insert({isbn, it->second});
+          table[isbn] = {cache.begin(), price};
       } else {
-
+          if(size == cache.size()){
+              int val = cache.back();
+              cache.pop_back();
+              table.erase(val);
+          }
+          cache.emplace_front(isbn);
+          table[isbn] = {cache.begin(), price};
       }
   }
+
   bool Erase(int isbn) {
       auto it = table.find(isbn);
       if(it == table.end()){
