@@ -10,39 +10,11 @@ using std::pair;
 class LruCache {
  public:
   LruCache(size_t capacity) : size(capacity){}
-  int Lookup(int isbn) {
-      auto it = table.find(isbn);
-      if(it == table.end()){
-        return -1;
-      }
-
-      cache.erase(it->second.first);
-      cache.emplace_front(it->second.second);
-      it->second.first = cache.begin();
-      table.insert({isbn, it->second});
-      return it->second.second;
+  int lookup(int isbn) {
   }
-  void Insert(int isbn, int price) {
-    // TODO - you fill in here.
-    auto it = table.find(isbn);
-    if(it != table.end()){
-      cache.erase(it->second.first);
-      cache.emplace_front(isbn);
-      it->second.first = cache.begin();
-      it->second.second = price;
-      table.insert({isbn, it->second});
-    } else{
-
-    }
+  void insert(int isbn, int price) {
   }
-  bool Erase(int isbn) {
-      auto it = table.find(isbn);
-      if(it == table.end()){
-        return false;
-      }
-      cache.erase(it->second.first);
-      table.erase(isbn);
-      return true;
+  bool erase(int isbn) {
   }
 private:
     unordered_map<int, pair<list<int>::iterator, int>> table;
