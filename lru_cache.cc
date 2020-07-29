@@ -5,6 +5,7 @@
 #include "test_framework/test_failure.h"
 using std::unordered_map;
 using std::list;
+using std::pair;
 
 class LruCache {
  public:
