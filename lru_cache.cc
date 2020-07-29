@@ -11,8 +11,11 @@ class LruCache {
  public:
   LruCache(size_t capacity) : size(capacity){}
   int Lookup(int isbn) {
-    // TODO - you fill in here.
-    return 0;
+      auto it = table.find(isbn);
+      if(it == table.end()){
+        return -1;
+      }
+
   }
   void Insert(int isbn, int price) {
     // TODO - you fill in here.
