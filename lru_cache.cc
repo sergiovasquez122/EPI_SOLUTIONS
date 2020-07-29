@@ -24,11 +24,25 @@ class LruCache {
   }
   void Insert(int isbn, int price) {
     // TODO - you fill in here.
-    return;
+    auto it = table.find(isbn);
+    if(it != table.end()){
+      cache.erase(it->second.first);
+      cache.emplace_front(isbn);
+      it->second.first = cache.begin();
+      it->second.second = price;
+      table.insert({isbn, it->second});
+    } else{
+
+    }
   }
   bool Erase(int isbn) {
-    // TODO - you fill in here.
-    return true;
+      auto it = table.find(isbn);
+      if(it == table.end()){
+        return false;
+      }
+      cache.erase(it->second.first);
+      table.erase(isbn);
+      return true;
   }
 private:
     unordered_map<int, pair<list<int>::iterator, int>> table;
