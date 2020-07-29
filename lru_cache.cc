@@ -22,6 +22,7 @@ class LruCache {
     return true;
   }
 private:
+    unordered_map<int, pair<list<int>::iterator, int>> table;
     list<int> cache;
     size_t size;
 };
