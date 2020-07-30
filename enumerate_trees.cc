@@ -1,16 +1,34 @@
 #include <algorithm>
 #include <stack>
 #include <vector>
-
+#include <memory>
 #include "binary_tree_node.h"
 #include "test_framework/generic_test.h"
 #include "test_framework/timed_executor.h"
 using std::vector;
 
-vector<unique_ptr<BinaryTreeNode<int>>> GenerateAllBinaryTrees(int num_nodes) {
-  // TODO - you fill in here.
-  return {};
+std::unique_ptr<BinaryTreeNode<int>> Clone(const unique_ptr<BinaryTreeNode<int>>& tree){
+  return tree ? std::make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{0, Clone(tree->left), Clone(tree->right)}) : nullptr;
 }
+
+vector<unique_ptr<BinaryTreeNode<int>>> GenerateAllBinaryTrees(int num_nodes) {
+    vector<unique_ptr<BinaryTreeNode<int>>> result;
+    if(num_nodes == 0){
+      result.emplace_back(nullptr);
+    }
+    for(int num_left_tree_nodes = 0;num_left_tree_nodes < num_nodes;++num_left_tree_nodes){
+        int num_right_tree_nodes = num_nodes - 1 - num_left_tree_nodes;
+        auto left_subtree = GenerateAllBinaryTrees(num_left_tree_nodes);
+        auto right_subtree = GenerateAllBinaryTrees(num_right_tree_nodes);
+        for(auto& left : left_subtree){
+            for(auto& right : right_subtree){
+                result.emplace_back(std::make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{0, Clone(left), Clone(right)}));
+            }
+        }
+    }
+    return result;
+}
+
 vector<int> SerializeStructure(const unique_ptr<BinaryTreeNode<int>>& tree) {
   vector<int> result;
 
