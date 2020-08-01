@@ -13,7 +13,16 @@ using std::unordered_set;
 class ClientsCreditsInfo {
  public:
   void Insert(const string& client_id, int c) {
-
+      auto it = client_to_credits.find(client_id);
+      if(it == client_to_credits.end()){
+          client_to_credits[client_id] = c;
+          credits_to_clients[c].insert(client_id);
+      } else{
+          credits_to_clients[it->second].erase(client_id);
+          client_to_credits.erase(it);
+          client_to_credits[client_id] = c;
+          credits_to_clients[c].insert(client_id);
+      }
   }
   bool Remove(const string& client_id) {
       auto it = client_to_credits.find(client_id);
