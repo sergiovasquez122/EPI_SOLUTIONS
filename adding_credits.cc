@@ -13,12 +13,17 @@ using std::unordered_set;
 class ClientsCreditsInfo {
  public:
   void Insert(const string& client_id, int c) {
-    // TODO - you fill in here.
-    return;
+
   }
   bool Remove(const string& client_id) {
-    // TODO - you fill in here.
-    return true;
+      auto it = client_to_credits.find(client_id);
+      if(it == client_to_credits.end()){
+          return false;
+      }
+      int c = it->second;
+      credits_to_clients[c].erase(client_id);
+      client_to_credits.erase(client_id);
+      return true;
   }
   int Lookup(const string& client_id) const {
       auto it = client_to_credits.find(client_id);
@@ -31,8 +36,11 @@ class ClientsCreditsInfo {
       global_credits += C;
   }
   string Max() const {
-    // TODO - you fill in here.
-    return "";
+      auto it = credits_to_clients.crbegin();
+      if(it == credits_to_clients.crend()){
+        return "";
+      }
+      return *it->second.begin();
   }
 private:
     int global_credits = 0;
