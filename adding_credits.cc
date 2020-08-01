@@ -21,12 +21,14 @@ class ClientsCreditsInfo {
     return true;
   }
   int Lookup(const string& client_id) const {
-    // TODO - you fill in here.
-    return 0;
+      auto it = client_to_credits.find(client_id);
+      if(it == client_to_credits.cend()){
+        return -1;
+      }
+      return it->second + global_credits;
   }
   void AddAll(int C) {
-    // TODO - you fill in here.
-    return;
+      global_credits += C;
   }
   string Max() const {
     // TODO - you fill in here.
