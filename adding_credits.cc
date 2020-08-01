@@ -12,28 +12,31 @@ using std::unordered_set;
 
 class ClientsCreditsInfo {
  public:
+    // O(lgn)
   void Insert(const string& client_id, int c) {
       auto it = client_to_credits.find(client_id);
       if(it == client_to_credits.end()){
-          client_to_credits[client_id] = c;
-          credits_to_clients[c].insert(client_id);
+          client_to_credits[client_id] = c - global_credits;
+          credits_to_clients[c - global_credits].insert(client_id);
       } else{
           credits_to_clients[it->second].erase(client_id);
           client_to_credits.erase(it);
-          client_to_credits[client_id] = c;
-          credits_to_clients[c].insert(client_id);
+          client_to_credits[client_id] = c - global_credits;
+          credits_to_clients[c - global_credits].insert(client_id);
       }
   }
+  // O(lgn)
   bool Remove(const string& client_id) {
       auto it = client_to_credits.find(client_id);
       if(it == client_to_credits.end()){
           return false;
       }
       int c = it->second;
-      credits_to_clients[c].erase(client_id);
+      credits_to_clients[c - global_credits].erase(client_id);
       client_to_credits.erase(client_id);
       return true;
   }
+  // o(1)
   int Lookup(const string& client_id) const {
       auto it = client_to_credits.find(client_id);
       if(it == client_to_credits.cend()){
@@ -41,9 +44,11 @@ class ClientsCreditsInfo {
       }
       return it->second + global_credits;
   }
+  // o(1)
   void AddAll(int C) {
       global_credits += C;
   }
+  // O(lgn)
   string Max() const {
       auto it = credits_to_clients.crbegin();
       if(it == credits_to_clients.crend()){
