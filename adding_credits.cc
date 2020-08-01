@@ -1,9 +1,14 @@
 #include <string>
-
+#include <unordered_map>
+#include <map>
+#include <set>
 #include "test_framework/fmt_print.h"
 #include "test_framework/generic_test.h"
 #include "test_framework/test_failure.h"
 using std::string;
+using std::unordered_map;
+using std::map;
+using std::unordered_set;
 
 class ClientsCreditsInfo {
  public:
@@ -27,6 +32,10 @@ class ClientsCreditsInfo {
     // TODO - you fill in here.
     return "";
   }
+private:
+    int global_credits = 0;
+    unordered_map<string, int> client_to_credits;
+    map<int, unordered_set<string>> credits_to_clients;
 };
 struct Operation {
   std::string op;
