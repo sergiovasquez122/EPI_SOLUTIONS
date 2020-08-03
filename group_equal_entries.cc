@@ -23,21 +23,29 @@ struct Person {
 
 
 void GroupByAge(vector<Person>* people) {
-    vector<Person>& P = *people;
+    vector<Person> &P = *people;
     unordered_map<int, int> age_to_count;
-    for(const auto& p : P) {
+    for (const auto &p : P) {
         ++age_to_count[p.age];
     }
 
     int offset = 0;
-    unordered_map<int, int> count_to_offset;
-    for(auto& p : age_to_count){
-        count_to_offset[p.first] = offset;
+    unordered_map<int, int> age_to_offset;
+    for (auto &p : age_to_count) {
+        age_to_offset[p.first] = offset;
         offset += p.second;
     }
 
-    while(!count_to_offset.empty()){
-
+    while (!age_to_offset.empty()) {
+        auto from = age_to_offset.begin();
+        auto to = age_to_offset.find(P[from->second].age);
+        std::swap(P[from->second], P[to->second]);
+        --age_to_count[to->first];
+        if (age_to_count[to->first] > 0) {
+            ++to->second;
+        } else {
+            age_to_offset.erase(to);
+        }
     }
 }
 
