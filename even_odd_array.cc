@@ -7,8 +7,15 @@
 using std::vector;
 
 void EvenOdd(vector<int>* A_ptr) {
-  // TODO - you fill in here.
-  return;
+    vector<int>& A = *A_ptr;
+    int evens = 0, odds = A.size() - 1;
+    while(evens < odds){
+      if(A[evens] % 2 == 0){
+          evens++;
+      } else{
+          std::swap(A[evens], A[odds--]);
+      }
+    }
 }
 void EvenOddWrapper(TimedExecutor& executor, vector<int> A) {
   std::multiset<int> before(begin(A), end(A));
