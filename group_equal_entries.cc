@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <queue>
+#include <unordered_map>
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 #include "test_framework/test_failure.h"
@@ -10,6 +11,7 @@
 using std::string;
 using std::vector;
 using std::queue;
+using std::unordered_map;
 
 struct Person {
   int age;
@@ -21,8 +23,22 @@ struct Person {
 
 
 void GroupByAge(vector<Person>* people) {
-    vector<Person>& p = *people;
+    vector<Person>& P = *people;
+    unordered_map<int, int> age_to_count;
+    for(const auto& p : P) {
+        ++age_to_count[p.age];
+    }
 
+    int offset = 0;
+    unordered_map<int, int> count_to_offset;
+    for(auto& p : age_to_count){
+        count_to_offset[p.first] = offset;
+        offset += p.second;
+    }
+
+    while(!count_to_offset.empty()){
+
+    }
 }
 
 namespace test_framework {
