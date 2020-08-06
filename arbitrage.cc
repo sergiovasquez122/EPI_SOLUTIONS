@@ -15,6 +15,15 @@ bool bellmanFord(const vector<vector<double>>& graph, int s){
             }
         }
     }
+    
+    for(int i = 0;i < graph.size();i++){
+        for(int j = 0;j < graph[i].size();j++){
+                 if (dist_to_source[i] != std::numeric_limits<double>::max() && dist_to_source[j] > dist_to_source[i] + graph[i][j]){
+                     return true;
+                }
+        }
+    }
+    return false;
 }
 
 bool IsArbitrageExist(vector<vector<double>> graph) {
@@ -23,8 +32,7 @@ bool IsArbitrageExist(vector<vector<double>> graph) {
           graph[i][j] = -log10(graph[i][j]);
       }
     }
-
-
+    return bellmanFord(graph, 0);
 }
 
 int main(int argc, char* argv[]) {
