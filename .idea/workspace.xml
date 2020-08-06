@@ -231,7 +231,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/longest_increasing_subarray.cc" beforeDir="false" afterPath="$PROJECT_DIR$/longest_increasing_subarray.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/max_sum_subarray.cc" beforeDir="false" afterPath="$PROJECT_DIR$/max_sum_subarray.cc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -306,7 +306,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
-          <entry key="cc" value="958" />
+          <entry key="cc" value="967" />
           <entry key="h" value="28" />
           <entry key="longest_contained_interval" value="1" />
           <entry key="matrix_enclosed_regions (disassembly)" value="2" />
@@ -315,18 +315,18 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Disassembly" value="2" />
-          <entry key="ObjectiveC" value="987" />
+          <entry key="ObjectiveC" value="996" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cc" value="201961" />
+          <entry key="cc" value="203318" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="201961" />
+          <entry key="ObjectiveC" value="203318" />
         </counts>
       </usages-collector>
     </session>
@@ -334,18 +334,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kth_node_in_tree.cc">
+        <entry file="file://$PROJECT_DIR$/longest_increasing_subarray.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="315">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/largest_rectangle_under_skyline.cc">
+        <entry file="file://$PROJECT_DIR$/longest_subarray_with_sum_constraint.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -356,7 +357,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/left_right_justify_text.cc">
+        <entry file="file://$PROJECT_DIR$/look_and_say.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -367,7 +368,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/levenshtein_distance.cc">
+        <entry file="file://$PROJECT_DIR$/longest_substring_with_matching_parentheses.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -378,7 +379,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/line_through_most_points.cc">
+        <entry file="file://$PROJECT_DIR$/lowest_common_ancestor_close_ancestor.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -389,40 +390,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list_cyclic_right_shift.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/longest_subarray_with_distinct_values.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/longest_nondecreasing_subsequence.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/longest_contained_interval.cc">
+        <entry file="file://$PROJECT_DIR$/lowest_common_ancestor_in_bst.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -433,10 +401,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/longest_increasing_subarray.cc">
+        <entry file="file://$PROJECT_DIR$/max_sum_subarray.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/max_submatrix.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/max_square_submatrix.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/max_product_all_but_one.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -452,7 +453,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/matrix_connected_regions.cc" />
         <option value="$PROJECT_DIR$/matrix_enclosed_regions.cc" />
         <option value="$PROJECT_DIR$/deadlock_detection.cc" />
         <option value="$PROJECT_DIR$/graph_clone.cc" />
@@ -503,6 +503,7 @@
         <option value="$PROJECT_DIR$/count_inversions.cc" />
         <option value="$PROJECT_DIR$/fibonacci.cc" />
         <option value="$PROJECT_DIR$/longest_increasing_subarray.cc" />
+        <option value="$PROJECT_DIR$/max_sum_subarray.cc" />
       </list>
     </option>
   </component>
@@ -514,8 +515,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="302" />
-    <option name="y" value="52" />
+    <option name="x" value="264" />
+    <option name="y" value="-4" />
     <option name="width" value="649" />
     <option name="height" value="701" />
   </component>
@@ -561,7 +562,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.longest_increasing_subarray">
+  <component name="RunManager" selected="Application.max_sum_subarray">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1980,12 +1981,12 @@
       <workItem from="1596423936683" duration="729000" />
       <workItem from="1596475932777" duration="3513000" />
       <workItem from="1596582253760" duration="2874000" />
-      <workItem from="1596672356153" duration="1613000" />
+      <workItem from="1596672356153" duration="4835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230245000" />
+    <option name="totallyTimeSpent" value="233467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2082,60 +2083,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/5/bits/stl_construct.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buy_and_sell_stock_k_times.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/count_inversions.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fibonacci.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_salary_threshold.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_missing_positive_entry.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gcd.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_clone.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gray_code.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/group_equal_entries.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -2476,8 +2423,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/longest_increasing_subarray.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/look_and_say.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/longest_subarray_with_sum_constraint.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/longest_substring_with_matching_parentheses.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lowest_common_ancestor_close_ancestor.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lowest_common_ancestor_in_bst.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_submatrix.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_square_submatrix.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_product_all_but_one.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_sum_subarray.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>

@@ -4,8 +4,15 @@
 using std::vector;
 
 int FindMaximumSubarray(const vector<int>& A) {
-  // TODO - you fill in here.
-  return -1;
+  if(A.empty()) return 0;
+  vector<int> elements(A.size(), 0);
+  elements[0] = A[0];
+  int result = std::max(0, elements[0]);
+  for(int i = 1;i < A.size();i++){
+    elements[i] = A[i] + (elements[i - 1] > 0 ? elements[i - 1] : 0);
+    result = std::max(result, elements[i]);
+  }
+  return result;
 }
 
 int main(int argc, char* argv[]) {
