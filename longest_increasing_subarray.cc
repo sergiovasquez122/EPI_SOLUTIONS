@@ -8,9 +8,10 @@ struct Subarray {
 };
 
 Subarray FindLongestIncreasingSubarray(const vector<int>& A) {
-  // TODO - you fill in here.
-  return {};
+    Subarray result{0, 0};
+    return result;
 }
+
 int FindLongestIncreasingSubarrayWrapper(const vector<int>& A) {
   Subarray result = FindLongestIncreasingSubarray(A);
   return result.end - result.start + 1;
