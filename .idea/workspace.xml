@@ -12,7 +12,6 @@
       <config projectName="epi_judge_cpp" targetName="k_closest_stars" />
       <config projectName="epi_judge_cpp" targetName="two_sorted_arrays_merge" />
       <config projectName="epi_judge_cpp" targetName="tree_right_sibling" />
-      <config projectName="epi_judge_cpp" targetName="anagrams" />
       <config projectName="epi_judge_cpp" targetName="interval_add" />
       <config projectName="epi_judge_cpp" targetName="reverse_bits" />
       <config projectName="epi_judge_cpp" targetName="search_shifted_sorted_array" />
@@ -21,7 +20,7 @@
       <config projectName="epi_judge_cpp" targetName="largest_rectangle_under_skyline" />
       <config projectName="epi_judge_cpp" targetName="remove_duplicates_from_sorted_list" />
       <config projectName="epi_judge_cpp" targetName="matrix_enclosed_regions" />
-      <config projectName="epi_judge_cpp" targetName="sorted_list_to_bst" />
+      <config projectName="epi_judge_cpp" targetName="is_list_cyclic" />
       <config projectName="epi_judge_cpp" targetName="spiral_ordering" />
       <config projectName="epi_judge_cpp" targetName="bst_to_sorted_list" />
       <config projectName="epi_judge_cpp" targetName="convert_base" />
@@ -35,9 +34,8 @@
       <config projectName="epi_judge_cpp" targetName="tree_level_order" />
       <config projectName="epi_judge_cpp" targetName="number_of_traversals_staircase" />
       <config projectName="epi_judge_cpp" targetName="longest_substring_with_matching_parentheses" />
-      <config projectName="epi_judge_cpp" targetName="max_safe_height" />
       <config projectName="epi_judge_cpp" targetName="n_queens" />
-      <config projectName="epi_judge_cpp" targetName="longest_increasing_subarray" />
+      <config projectName="epi_judge_cpp" targetName="rectangle_intersection" />
       <config projectName="epi_judge_cpp" targetName="hanoi" />
       <config projectName="epi_judge_cpp" targetName="string_decompositions_into_dictionary_words" />
       <config projectName="epi_judge_cpp" targetName="three_sum" />
@@ -63,20 +61,19 @@
       <config projectName="epi_judge_cpp" targetName="random_subset" />
       <config projectName="epi_judge_cpp" targetName="is_string_in_matrix" />
       <config projectName="epi_judge_cpp" targetName="is_anonymous_letter_constructible" />
-      <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor_in_bst" />
-      <config projectName="epi_judge_cpp" targetName="search_for_missing_element" />
-      <config projectName="epi_judge_cpp" targetName="pretty_printing" />
-      <config projectName="epi_judge_cpp" targetName="roman_to_integer" />
+      <config projectName="epi_judge_cpp" targetName="power_set" />
       <config projectName="epi_judge_cpp" targetName="apply_permutation" />
       <config projectName="epi_judge_cpp" targetName="number_of_traversals_matrix" />
-      <config projectName="epi_judge_cpp" targetName="spreadsheet_encoding" />
+      <config projectName="epi_judge_cpp" targetName="string_integer_interconversion" />
       <config projectName="epi_judge_cpp" targetName="task_pairing" />
       <config projectName="epi_judge_cpp" targetName="uniform_random_number" />
+      <config projectName="epi_judge_cpp" targetName="search_frequent_items" />
       <config projectName="epi_judge_cpp" targetName="tree_preorder" />
       <config projectName="epi_judge_cpp" targetName="intervals_union" />
       <config projectName="epi_judge_cpp" targetName="pascal_triangle" />
       <config projectName="epi_judge_cpp" targetName="binomial_coefficients" />
       <config projectName="epi_judge_cpp" targetName="absent_value_array" />
+      <config projectName="epi_judge_cpp" targetName="nearest_repeated_entries" />
       <config projectName="epi_judge_cpp" targetName="substring_match" />
       <config projectName="epi_judge_cpp" targetName="path_sum" />
       <config projectName="epi_judge_cpp" targetName="huffman_coding" />
@@ -92,38 +89,38 @@
       <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor_with_parent" />
       <config projectName="epi_judge_cpp" targetName="longest_contained_interval" />
       <config projectName="epi_judge_cpp" targetName="calendar_rendering" />
-      <config projectName="epi_judge_cpp" targetName="tree_postorder" />
+      <config projectName="epi_judge_cpp" targetName="sum_root_to_leaf" />
       <config projectName="epi_judge_cpp" targetName="tree_exterior" />
-      <config projectName="epi_judge_cpp" targetName="primitive_multiply" />
       <config projectName="epi_judge_cpp" targetName="primitive_divide" />
       <config projectName="epi_judge_cpp" targetName="sort_list" />
       <config projectName="epi_judge_cpp" targetName="count_inversions" />
       <config projectName="epi_judge_cpp" targetName="insert_operators_in_string" />
-      <config projectName="epi_judge_cpp" targetName="random_permutation" />
+      <config projectName="epi_judge_cpp" targetName="circular_queue" />
       <config projectName="epi_judge_cpp" targetName="delete_kth_last_from_list" />
       <config projectName="epi_judge_cpp" targetName="replace_and_remove" />
-      <config projectName="epi_judge_cpp" targetName="smallest_subarray_covering_all_values" />
-      <config projectName="epi_judge_cpp" targetName="group_equal_entries" />
+      <config projectName="epi_judge_cpp" targetName="longest_increasing_subarray" />
       <config projectName="epi_judge_cpp" targetName="is_list_palindromic" />
+      <config projectName="epi_judge_cpp" targetName="max_submatrix" />
       <config projectName="epi_judge_cpp" targetName="fibonacci" />
-      <config projectName="epi_judge_cpp" targetName="is_list_cyclic" />
+      <config projectName="epi_judge_cpp" targetName="dutch_national_flag" />
       <config projectName="epi_judge_cpp" targetName="sorted_arrays_merge" />
       <config projectName="epi_judge_cpp" targetName="directory_path_normalization" />
-      <config projectName="epi_judge_cpp" targetName="drawing_skyline" />
       <config projectName="epi_judge_cpp" targetName="first_missing_positive_entry" />
       <config projectName="epi_judge_cpp" targetName="is_circuit_wirable" />
       <config projectName="epi_judge_cpp" targetName="even_odd_list_merge" />
+      <config projectName="epi_judge_cpp" targetName="regular_expression" />
       <config projectName="epi_judge_cpp" targetName="sort_almost_sorted_array" />
       <config projectName="epi_judge_cpp" targetName="int_square_root" />
       <config projectName="epi_judge_cpp" targetName="matrix_rotation" />
       <config projectName="epi_judge_cpp" targetName="power_x_y" />
-      <config projectName="epi_judge_cpp" targetName="range_lookup_in_bst" />
       <config projectName="epi_judge_cpp" targetName="left_right_justify_text" />
       <config projectName="epi_judge_cpp" targetName="sorted_lists_merge" />
       <config projectName="epi_judge_cpp" targetName="max_water_trappable" />
       <config projectName="epi_judge_cpp" targetName="collatz_checker" />
-      <config projectName="epi_judge_cpp" targetName="dutch_national_flag" />
       <config projectName="epi_judge_cpp" targetName="is_tree_a_bst" />
+      <config projectName="epi_judge_cpp" targetName="max_trapped_water" />
+      <config projectName="epi_judge_cpp" targetName="gcd" />
+      <config projectName="epi_judge_cpp" targetName="group_equal_entries" />
       <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor_close_ancestor" />
       <config projectName="epi_judge_cpp" targetName="bst_from_preorder" />
       <config projectName="epi_judge_cpp" targetName="prime_sieve" />
@@ -136,46 +133,48 @@
       <config projectName="epi_judge_cpp" targetName="evaluate_rpn" />
       <config projectName="epi_judge_cpp" targetName="queue_from_stacks" />
       <config projectName="epi_judge_cpp" targetName="online_sampling" />
-      <config projectName="epi_judge_cpp" targetName="longest_subarray_with_distinct_values" />
+      <config projectName="epi_judge_cpp" targetName="two_sum" />
       <config projectName="epi_judge_cpp" targetName="buy_and_sell_stock_twice" />
       <config projectName="epi_judge_cpp" targetName="kth_largest_element_in_long_array" />
       <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor" />
       <config projectName="epi_judge_cpp" targetName="parity" />
       <config projectName="epi_judge_cpp" targetName="bst_merge" />
+      <config projectName="epi_judge_cpp" targetName="is_string_palindromic_punctuation" />
       <config projectName="epi_judge_cpp" targetName="real_square_root" />
       <config projectName="epi_judge_cpp" targetName="phone_number_mnemonic" />
       <config projectName="epi_judge_cpp" targetName="combinations" />
       <config projectName="epi_judge_cpp" targetName="search_first_key" />
       <config projectName="epi_judge_cpp" targetName="knapsack" />
+      <config projectName="epi_judge_cpp" targetName="random_permutation" />
       <config projectName="epi_judge_cpp" targetName="minimum_waiting_time" />
       <config projectName="epi_judge_cpp" targetName="search_for_min_max_in_array" />
       <config projectName="epi_judge_cpp" targetName="enumerate_trees" />
       <config projectName="epi_judge_cpp" targetName="buy_and_sell_stock" />
       <config projectName="epi_judge_cpp" targetName="count_bits" />
-      <config projectName="epi_judge_cpp" targetName="regular_expression" />
+      <config projectName="epi_judge_cpp" targetName="sorted_list_to_bst" />
       <config projectName="epi_judge_cpp" targetName="kth_largest_in_array" />
       <config projectName="epi_judge_cpp" targetName="element_appearing_once" />
       <config projectName="epi_judge_cpp" targetName="road_network" />
-      <config projectName="epi_judge_cpp" targetName="max_submatrix" />
+      <config projectName="epi_judge_cpp" targetName="drawing_skyline" />
       <config projectName="epi_judge_cpp" targetName="buy_and_sell_stock_k_times" />
       <config projectName="epi_judge_cpp" targetName="rotate_array" />
       <config projectName="epi_judge_cpp" targetName="nonuniform_random_number" />
       <config projectName="epi_judge_cpp" targetName="is_number_palindromic" />
       <config projectName="epi_judge_cpp" targetName="is_string_permutable_to_palindrome" />
       <config projectName="epi_judge_cpp" targetName="is_tree_symmetric" />
-      <config projectName="epi_judge_cpp" targetName="search_frequent_items" />
+      <config projectName="epi_judge_cpp" targetName="pretty_printing" />
       <config projectName="epi_judge_cpp" targetName="search_first_greater_value_in_bst" />
       <config projectName="epi_judge_cpp" targetName="sort_increasing_decreasing_array" />
       <config projectName="epi_judge_cpp" targetName="offline_sampling" />
       <config projectName="epi_judge_cpp" targetName="maximum_subarray_in_circular_array" />
       <config projectName="epi_judge_cpp" targetName="search_unknown_length_array" />
-      <config projectName="epi_judge_cpp" targetName="tree_from_preorder_inorder" />
+      <config projectName="epi_judge_cpp" targetName="anagrams" />
       <config projectName="epi_judge_cpp" targetName="max_product_all_but_one" />
       <config projectName="epi_judge_cpp" targetName="remove_duplicates" />
       <config projectName="epi_judge_cpp" targetName="majority_element" />
-      <config projectName="epi_judge_cpp" targetName="two_sum" />
+      <config projectName="epi_judge_cpp" targetName="tree_postorder" />
       <config projectName="epi_judge_cpp" targetName="zip_list" />
-      <config projectName="epi_judge_cpp" targetName="sum_root_to_leaf" />
+      <config projectName="epi_judge_cpp" targetName="primitive_multiply" />
       <config projectName="epi_judge_cpp" targetName="h_index" />
       <config projectName="epi_judge_cpp" targetName="rook_attack" />
       <config projectName="epi_judge_cpp" targetName="list_cyclic_right_shift" />
@@ -192,7 +191,7 @@
       <config projectName="epi_judge_cpp" targetName="tree_inorder" />
       <config projectName="epi_judge_cpp" targetName="max_of_sliding_window" />
       <config projectName="epi_judge_cpp" targetName="max_square_submatrix" />
-      <config projectName="epi_judge_cpp" targetName="power_set" />
+      <config projectName="epi_judge_cpp" targetName="max_safe_height" />
       <config projectName="epi_judge_cpp" targetName="find_salary_threshold" />
       <config projectName="epi_judge_cpp" targetName="is_valid_parenthesization" />
       <config projectName="epi_judge_cpp" targetName="swap_bits" />
@@ -203,24 +202,25 @@
       <config projectName="epi_judge_cpp" targetName="is_tree_balanced" />
       <config projectName="epi_judge_cpp" targetName="successor_in_tree" />
       <config projectName="epi_judge_cpp" targetName="minimum_weight_path_in_a_triangle" />
-      <config projectName="epi_judge_cpp" targetName="circular_queue" />
+      <config projectName="epi_judge_cpp" targetName="lowest_common_ancestor_in_bst" />
       <config projectName="epi_judge_cpp" targetName="gray_code" />
-      <config projectName="epi_judge_cpp" targetName="nearest_repeated_entries" />
+      <config projectName="epi_judge_cpp" targetName="insert_in_list" />
       <config projectName="epi_judge_cpp" targetName="search_maze" />
       <config projectName="epi_judge_cpp" targetName="sorted_array_remove_dups" />
-      <config projectName="epi_judge_cpp" targetName="is_string_palindromic_punctuation" />
+      <config projectName="epi_judge_cpp" targetName="search_for_missing_element" />
       <config projectName="epi_judge_cpp" targetName="look_and_say" />
       <config projectName="epi_judge_cpp" targetName="queue_with_max" />
       <config projectName="epi_judge_cpp" targetName="advance_by_offsets" />
       <config projectName="epi_judge_cpp" targetName="do_terminated_lists_overlap" />
       <config projectName="epi_judge_cpp" targetName="pivot_list" />
       <config projectName="epi_judge_cpp" targetName="int_as_array_increment" />
-      <config projectName="epi_judge_cpp" targetName="gcd" />
-      <config projectName="epi_judge_cpp" targetName="insert_in_list" />
+      <config projectName="epi_judge_cpp" targetName="smallest_subarray_covering_all_values" />
+      <config projectName="epi_judge_cpp" targetName="range_lookup_in_bst" />
+      <config projectName="epi_judge_cpp" targetName="spreadsheet_encoding" />
       <config projectName="epi_judge_cpp" targetName="enumerate_balanced_parentheses" />
-      <config projectName="epi_judge_cpp" targetName="max_trapped_water" />
-      <config projectName="epi_judge_cpp" targetName="rectangle_intersection" />
-      <config projectName="epi_judge_cpp" targetName="string_integer_interconversion" />
+      <config projectName="epi_judge_cpp" targetName="tree_from_preorder_inorder" />
+      <config projectName="epi_judge_cpp" targetName="roman_to_integer" />
+      <config projectName="epi_judge_cpp" targetName="longest_subarray_with_distinct_values" />
       <config projectName="epi_judge_cpp" targetName="lru_cache" />
     </generated>
   </component>
@@ -232,6 +232,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4f3952b4-1b09-49ce-b30c-49226a28ca31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst_to_sorted_list.cc" beforeDir="false" afterPath="$PROJECT_DIR$/bst_to_sorted_list.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/max_of_sliding_window.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/max_of_sliding_window.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/max_of_sliding_window.cc" beforeDir="false" afterPath="$PROJECT_DIR$/max_of_sliding_window.cc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -259,7 +262,8 @@
     <session id="-1147450136">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="83" />
+          <entry key="project.closed" value="85" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.128" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -280,7 +284,7 @@
           <entry key="project.open.time.59" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="9" />
-          <entry key="project.open.time.61" value="4" />
+          <entry key="project.open.time.61" value="5" />
           <entry key="project.open.time.62" value="5" />
           <entry key="project.open.time.63" value="6" />
           <entry key="project.open.time.64" value="1" />
@@ -300,13 +304,13 @@
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.89" value="2" />
-          <entry key="project.opened" value="85" />
+          <entry key="project.opened" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
-          <entry key="cc" value="1061" />
+          <entry key="cc" value="1086" />
           <entry key="h" value="33" />
           <entry key="longest_contained_interval" value="1" />
           <entry key="matrix_enclosed_regions (disassembly)" value="2" />
@@ -316,18 +320,18 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Disassembly" value="2" />
-          <entry key="ObjectiveC" value="1095" />
+          <entry key="ObjectiveC" value="1120" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cc" value="206315" />
+          <entry key="cc" value="208655" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="206315" />
+          <entry key="ObjectiveC" value="208655" />
         </counts>
       </usages-collector>
     </session>
@@ -335,101 +339,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anagrams.cc">
+        <entry file="file://$PROJECT_DIR$/k_largest_values_in_bst.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apply_permutation.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_tree_node.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arbitrage.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bonus.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bst_from_preorder.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bst_from_sorted_array.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/valid_ip_addresses.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uniform_random_number.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bst_to_sorted_list.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/two_sum.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/two_sorted_arrays_merge.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree_with_parent_inorder.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree_right_sibling.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree_postorder.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree_level_order.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree_inorder.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree_from_preorder_with_null.cc">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -447,8 +457,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/graph_clone.cc" />
-        <option value="$PROJECT_DIR$/is_circuit_wirable.cc" />
         <option value="$PROJECT_DIR$/nearest_repeated_entries.cc" />
         <option value="$PROJECT_DIR$/sort_almost_sorted_array.cc" />
         <option value="$PROJECT_DIR$/sorted_arrays_merge.cc" />
@@ -498,6 +506,8 @@
         <option value="$PROJECT_DIR$/roman_to_integer.cc" />
         <option value="$PROJECT_DIR$/arbitrage.cc" />
         <option value="$PROJECT_DIR$/power_x_y.cc" />
+        <option value="$PROJECT_DIR$/max_of_sliding_window.cc" />
+        <option value="$PROJECT_DIR$/bst_to_sorted_list.cc" />
       </list>
     </option>
   </component>
@@ -509,10 +519,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
+    <option name="x" value="63" />
+    <option name="y" value="16" />
     <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -520,6 +530,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -536,7 +547,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -556,7 +566,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.power_x_y">
+  <component name="RunManager" selected="Application.max_of_sliding_window">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1979,12 +1989,14 @@
       <workItem from="1596737750449" duration="1483000" />
       <workItem from="1596750245025" duration="1009000" />
       <workItem from="1596761284378" duration="1181000" />
-      <workItem from="1596835851047" duration="413000" />
+      <workItem from="1596835851047" duration="1560000" />
+      <workItem from="1596838869749" duration="22000" />
+      <workItem from="1596840302364" duration="1245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238964000" />
+    <option name="totallyTimeSpent" value="241378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1999,7 +2011,7 @@
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.13386454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.14103585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2011,7 +2023,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3121118" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22204968" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22204968" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919255" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -2081,84 +2093,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_framework/timed_executor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework/generic_test_handler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_framework/generic_test.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rook_attack.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rotate_array.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roman_to_integer.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advance_by_offsets.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adding_credits.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/absent_value_array.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_for_min_max_in_array.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_first_key.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zip_list.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maximum_subarray_in_circular_array.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/max_of_sliding_window.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pretty_printing.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/power_x_y.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picking_up_coins.cc">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/phone_number_mnemonic.cc">
       <provider selected="true" editor-type-id="text-editor" />
@@ -2181,135 +2121,48 @@
     <entry file="file://$PROJECT_DIR$/offline_sampling.cc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/two_sorted_arrays_merge.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_right_sibling.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree_preorder.cc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree_postorder.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_inorder.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_from_preorder_with_null.cc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree_from_preorder_inorder.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree_exterior.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tree_connect_leaves.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/three_sum.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/task_pairing.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/swap_bits.cc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sunset_view.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sum_root_to_leaf.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sudoku_solve.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/successor_in_tree.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alternating_array.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/anagrams.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apply_permutation.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/binary_tree_node.h">
       <provider selected="true" editor-type-id="text-editor" />
@@ -2318,44 +2171,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bonus.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bst_from_preorder.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bst_from_sorted_array.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_of_sliding_window.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix_rotation.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix_enclosed_regions.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix_connected_regions.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/making_change.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majority_element.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lru_cache.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lowest_common_ancestor_with_parent.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lowest_common_ancestor_in_bst.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pivot_list.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picking_up_coins.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip_list.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/valid_ip_addresses.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_from_preorder_inorder.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2372,6 +2253,88 @@
     <entry file="file://$PROJECT_DIR$/two_sum.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two_sorted_arrays_merge.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_with_parent_inorder.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_right_sibling.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_postorder.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_level_order.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_inorder.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree_from_preorder_with_null.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k_largest_values_in_bst.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bst_to_sorted_list.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>

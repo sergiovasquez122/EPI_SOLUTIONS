@@ -25,6 +25,19 @@ struct TrafficElement {
 vector<TrafficElement> CalculateTrafficVolumes(const vector<TrafficElement>& A,
                                                int w) {
     vector<TrafficElement> result;
+    deque<int> candidates;
+    for(int window_end = 0;window_end < A.size();window_end++){
+        while(!candidates.empty() && candidates.front() < window_end - w + 1){
+            candidates.pop_front();
+        }
+        while(!candidates.empty() && A[candidates.back()] < A[window_end]){
+            candidates.pop_back();
+        }
+        candidates.push_back(window_end);
+        if(window_end >= w - 1){
+            result.push_back(A[candidates.front()]);
+        }
+    }
     return result;
 }
 

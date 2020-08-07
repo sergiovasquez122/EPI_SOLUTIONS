@@ -6,6 +6,14 @@
 #include "test_framework/test_failure.h"
 #include "test_framework/timed_executor.h"
 using std::shared_ptr;
+
+struct head_to_tail{
+    shared_ptr<BstNode<int>> head, tail;
+};
+
+head_to_tail helper(const shared_ptr<BstNode<int>>& tree){
+}
+
 shared_ptr<BstNode<int>> BSTToDoublyLinkedList(
     const shared_ptr<BstNode<int>>& tree) {
   // TODO - you fill in here.
