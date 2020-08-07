@@ -13,8 +13,8 @@ struct TrafficElement {
 };
 vector<TrafficElement> CalculateTrafficVolumes(const vector<TrafficElement>& A,
                                                int w) {
-  // TODO - you fill in here.
-  return {};
+    vector<TrafficElement> result;
+    return result;
 }
 
 namespace test_framework {
