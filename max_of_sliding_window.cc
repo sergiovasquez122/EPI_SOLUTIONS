@@ -1,16 +1,27 @@
 #include <vector>
-
+#include <deque>
 #include "test_framework/generic_test.h"
 #include "test_framework/serialization_traits.h"
 using std::vector;
+using std::deque;
 
 struct TrafficElement {
+  bool operator<(const TrafficElement& that) const {
+      return volume < that.volume || (volume == that.volume && time < that.time);
+  }
+
+  bool operator<=(const TrafficElement& that) const {
+      return !(that < *this);
+  }
+
   bool operator==(const TrafficElement& that) const {
     return time == that.time && volume == that.volume;
   }
+
   int time;
   double volume;
 };
+
 vector<TrafficElement> CalculateTrafficVolumes(const vector<TrafficElement>& A,
                                                int w) {
     vector<TrafficElement> result;
