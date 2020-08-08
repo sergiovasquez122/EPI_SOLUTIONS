@@ -1,74 +1,129 @@
 #include <memory>
-#include <stack>
+
 #include "bst_prototype_shared_ptr.h"
 #include "test_framework/generic_test.h"
+
 using std::shared_ptr;
-using std::stack;
 
-shared_ptr<BstNode<int>> BSTToDoublyLinkedList(
-        const shared_ptr<BstNode<int>>& tree) {
-  stack<shared_ptr<BstNode<int>>> on_stack;
-  auto iter = tree;
-  auto pre = iter;
-  pre = nullptr;
-  auto result = pre;
-  while(iter || !on_stack.empty()){
-    while(iter){
-      on_stack.push(iter);
-      iter = iter->left;
+shared_ptr<BstNode<int>> BSTToDoublyListHelper(const shared_ptr<BstNode<int>>&);
+
+shared_ptr<BstNode<int>> MergeTwoSortedLists(shared_ptr<BstNode<int>>,
+                                             shared_ptr<BstNode<int>>);
+
+void AppendNode(shared_ptr<BstNode<int>>*, shared_ptr<BstNode<int>>*);
+
+// Build a BST from the (s + 1)-th to the e-th node in L.
+shared_ptr<BstNode<int>> BuildBSTFromSortedDoublyListHelper(
+        shared_ptr<BstNode<int>>* L, int s, int e) {
+    shared_ptr<BstNode<int>> curr = nullptr;
+    if (s < e) {
+        int m = s + ((e - s) / 2);
+        auto temp = BuildBSTFromSortedDoublyListHelper(L, s, m);
+        curr = *L;
+        curr->left = temp;
+        *L = (*L)->right;
+        curr->right = BuildBSTFromSortedDoublyListHelper(L, m + 1, e);
     }
-    iter = on_stack.top();
-    on_stack.pop();
-    if(!pre) result = iter;
-    if(pre){
-      pre->right = iter;
-      iter->left = pre;
-    }
-    pre = iter;
-    iter = iter->right;
-  }
-  return result;
-}
-
-int countLength(shared_ptr<BstNode<int>> A){
-    int length = 0;
-    for(auto iter = A;iter != nullptr;iter = iter->right){
-        length++;
-    }
-    return length;
-}
-
-
-shared_ptr<BstNode<int>> helper(shared_ptr<BstNode<int>>* l_ref, int start,int end){
-    if(end < start) return nullptr;
-    int mid = start + (end - start) / 2;
-    auto left = helper(l_ref, start, mid - 1);
-    auto curr = *l_ref;
-    curr->left = left;
-    *l_ref = (*l_ref)->right;
-    curr->right = helper(l_ref, mid + 1, end);
     return curr;
 }
 
 shared_ptr<BstNode<int>> BuildBSTFromSortedDoublyList(
-        shared_ptr<BstNode<int>> l, int length) {
-if(l == nullptr) return nullptr;
-return helper(&l, 0, length - 1);
+        shared_ptr<BstNode<int>> L, int n) {
+    return BuildBSTFromSortedDoublyListHelper(&L, 0, n);
+}
+
+shared_ptr<BstNode<int>> BSTToDoublyList(const shared_ptr<BstNode<int>>& n) {
+    auto result = BSTToDoublyListHelper(n);
+    result->left->right = nullptr;  // breaks the link from tail to head.
+    result->left = nullptr;         // breaks the link from head to tail.
+    return result;
+}
+
+// Transform a BST into a circular sorted doubly linked list in-place,
+// return the head of the list.
+shared_ptr<BstNode<int>> BSTToDoublyListHelper(
+        const shared_ptr<BstNode<int>>& n) {
+    // Empty subtree.
+    if (!n) {
+        return nullptr;
+    }
+
+    // Recursively build the list from left and right subtrees.
+    auto l_head(BSTToDoublyListHelper(n->left)),
+            r_head(BSTToDoublyListHelper(n->right));
+
+    // Append n to the list from left subtree.
+    shared_ptr<BstNode<int>> l_tail = nullptr;
+    if (l_head) {
+        l_tail = l_head->left;
+        l_tail->right = n;
+        n->left = l_tail;
+        l_tail = n;
+    } else {
+        l_head = l_tail = n;
+    }
+
+    // Append the list from right subtree to n.
+    shared_ptr<BstNode<int>> r_tail = nullptr;
+    if (r_head) {
+        r_tail = r_head->left;
+        l_tail->right = r_head;
+        r_head->left = l_tail;
+    } else {
+        r_tail = l_tail;
+    }
+    r_tail->right = l_head, l_head->left = r_tail;
+
+    return l_head;
+}
+
+// Count the list length till end.
+int CountLength(shared_ptr<BstNode<int>> L) {
+    int length = 0;
+    while (L) {
+        ++length, L = L->right;
+    }
+    return length;
 }
 
 shared_ptr<BstNode<int>> MergeTwoBSTs(shared_ptr<BstNode<int>> A,
                                       shared_ptr<BstNode<int>> B) {
-    auto lhs = BSTToDoublyLinkedList(A); // O(n)
-    auto rhs = BSTToDoublyLinkedList(B); // O(n)
-    int lhs_length = countLength(A);
-    int rhs_length = countLength(B);
-    return BuildBSTFromSortedDoublyList(lhs, lhs_length + rhs_length);
+    A = BSTToDoublyList(A), B = BSTToDoublyList(B);
+    int A_length = CountLength(A), B_length = CountLength(B);
+    return BuildBSTFromSortedDoublyList(MergeTwoSortedLists(A, B),
+                                        A_length + B_length);
+}
 
+// Merges two sorted doubly linked lists, returns the head of merged list.
+shared_ptr<BstNode<int>> MergeTwoSortedLists(shared_ptr<BstNode<int>> A,
+                                             shared_ptr<BstNode<int>> B) {
+    shared_ptr<BstNode<int>> sorted_head(new BstNode<int>(0));
+    shared_ptr<BstNode<int>> tail = sorted_head;
+
+    while (A && B) {
+        AppendNode(A->data < B->data ? &A : &B, &tail);
+    }
+
+    if (A) {
+        // Appends the remaining of A.
+        AppendNode(&A, &tail);
+    } else if (B) {
+        // Appends the remaining of B.
+        AppendNode(&B, &tail);
+    }
+    return sorted_head->right;
+}
+
+void AppendNode(shared_ptr<BstNode<int>>* node,
+                shared_ptr<BstNode<int>>* tail) {
+    (*tail)->right = *node;
+    *tail = *node;  // Resets tail to the last node.
+    *node = (*node)->right;
 }
 
 int main(int argc, char* argv[]) {
-  std::vector<std::string> args{argv + 1, argv + argc};
-  std::vector<std::string> param_names{"A", "B"};
-  return GenericTestMain(args, "bst_merge.cc", "bst_merge.tsv", &MergeTwoBSTs,
-                         DefaultComparator{}, param_names);
+    std::vector<std::string> args{argv + 1, argv + argc};
+    std::vector<std::string> param_names{"A", "B"};
+    return GenericTestMain(args, "bst_merge.cc", "bst_merge.tsv", &MergeTwoBSTs,
+                           DefaultComparator{}, param_names);
 }
