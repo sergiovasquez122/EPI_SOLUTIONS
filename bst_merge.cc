@@ -30,13 +30,40 @@ shared_ptr<BstNode<int>> BSTToDoublyLinkedList(
   return result;
 }
 
+int countLength(shared_ptr<BstNode<int>> A){
+    int length = 0;
+    for(auto iter = A;iter != nullptr;iter = iter->right){
+        length++;
+    }
+    return length;
+}
+
+
+shared_ptr<BstNode<int>> helper(shared_ptr<BstNode<int>>* l_ref, int start,int end){
+    if(end < start) return nullptr;
+    int mid = start + (end - start) / 2;
+    auto left = helper(l_ref, start, mid - 1);
+    auto curr = *l_ref;
+    curr->left = left;
+    *l_ref = (*l_ref)->right;
+    curr->right = helper(l_ref, mid + 1, end);
+    return curr;
+}
+
+shared_ptr<BstNode<int>> BuildBSTFromSortedDoublyList(
+        shared_ptr<BstNode<int>> l, int length) {
+if(l == nullptr) return nullptr;
+return helper(&l, 0, length - 1);
+}
+
 shared_ptr<BstNode<int>> MergeTwoBSTs(shared_ptr<BstNode<int>> A,
                                       shared_ptr<BstNode<int>> B) {
     auto lhs = BSTToDoublyLinkedList(A); // O(n)
     auto rhs = BSTToDoublyLinkedList(B); // O(n)
-    // merge items
-    // count length
-    return
+    int lhs_length = countLength(A);
+    int rhs_length = countLength(B);
+    return BuildBSTFromSortedDoublyList(lhs, lhs_length + rhs_length);
+
 }
 
 int main(int argc, char* argv[]) {
