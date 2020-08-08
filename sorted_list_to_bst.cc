@@ -12,23 +12,21 @@ using std::vector;
 // Returns the root of the corresponding BST. The prev and next fields of the
 // list nodes are used as the BST nodes left and right fields, respectively.
 // The length of the list is given.
-shared_ptr<ListNode<int>> helper(shared_ptr<ListNode<int>> L, int start,int end){
+shared_ptr<ListNode<int>> helper(shared_ptr<ListNode<int>>* l_ref, int start,int end){
     if(end < start) return nullptr;
-
     int mid = start + (end - start) / 2;
-    auto left = helper(L, start, mid - 1);
-    auto curr = L;
-    L = L->next;
-    auto right = helper(L, mid + 1, end);
+    auto left = helper(l_ref, start, mid - 1);
+    auto curr = *l_ref;
     curr->prev = left;
-    curr->next = right;
+    *l_ref = (*l_ref)->next;
+    curr->next = helper(l_ref, mid + 1, end);
     return curr;
 }
 
 shared_ptr<ListNode<int>> BuildBSTFromSortedDoublyList(
     shared_ptr<ListNode<int>> l, int length) {
     if(l == nullptr) return nullptr;
-    return helper(l, 0, length - 1);
+    return helper(&l, 0, length - 1);
 }
 void CompareVectorAndTree(const shared_ptr<ListNode<int>>& tree,
                           vector<int>::const_iterator& current,
