@@ -6,9 +6,15 @@ using std::unique_ptr;
 
 bool HasPathSum(const unique_ptr<BinaryTreeNode<int>>& tree,
                 int remaining_weight) {
-  // TODO - you fill in here.
-  return true;
+    if(tree == nullptr){
+        return false;
+    }
+    if(!tree->left && !tree->right && remaining_weight - tree->data == 0){
+        return true;
+    }
+    return HasPathSum(tree->left, remaining_weight - tree->data) || HasPathSum(tree->right, remaining_weight - tree->data);
 }
+
 
 int main(int argc, char* argv[]) {
   std::vector<std::string> args{argv + 1, argv + argc};
